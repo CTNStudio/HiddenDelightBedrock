@@ -7,7 +7,7 @@ esbuild.build({
   outfile: "./HiddenYearsFP_BP/scripts/index.js",
   format: "esm",
   external: ["@minecraft/server", "@minecraft/server-ui"],
-  minify: false,
+  minify: true,
   treeShaking: true,
 }),
 
