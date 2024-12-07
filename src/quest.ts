@@ -198,6 +198,90 @@ export const MARSHALLOW = new Quest(
 );
 
 /**
+ * 任务-美味的甜品？
+ */
+export const COOKIE = new Quest(
+  "cookie",
+  { translate: "hy.quest.cookie.title" },
+  { translate: "hy.quest.cookie.body" },
+  {
+    condition: {
+      item: {
+        itemStack: new ItemStack("cookie"),
+        name: {
+          translate: "item.cookie.name",
+        },
+      },
+    },
+    award: {
+      item: {
+        name: {
+          translate: "item.iron_ingot.name",
+        },
+        itemStack: new ItemStack("iron_ingot", 2),
+      },
+    },
+    iconPath: "textures/items/cookie",
+  }
+);
+
+/**
+ * 任务-甜菜汤
+ */
+export const BEETROOT_SOUP = new Quest(
+  "beetroot_soup",
+  { translate: "hy.quest.beetroot_soup.title" },
+  { translate: "hy.quest.beetroot_soup.body" },
+  {
+    condition: {
+      item: {
+        itemStack: new ItemStack("beetroot_soup"),
+        name: {
+          translate: "item.beetroot_soup.name",
+        },
+      },
+    },
+    award: {
+      item: {
+        name: {
+          translate: "item.iron_ingot.name",
+        },
+        itemStack: new ItemStack("iron_ingot", 2),
+      },
+    },
+    iconPath: "textures/items/beetroot_soup",
+  }
+);
+
+/**
+ * 任务-来吃南瓜吧！
+ */
+export const PUMKIN_PIE = new Quest(
+  "pumpkin_pie",
+  { translate: "hy.quest.pumpkin_pie.title" },
+  { translate: "hy.quest.pumpkin_pie.body" },
+  {
+    condition: {
+      item: {
+        itemStack: new ItemStack("pumpkin_pie"),
+        name: {
+          translate: "item.pumpkin_pie.name",
+        },
+      },
+    },
+    award: {
+      item: {
+        name: {
+          translate: "item.iron_ingot.name",
+        },
+        itemStack: new ItemStack("iron_ingot", 3),
+      },
+    },
+    iconPath: "textures/items/pumpkin_pie",
+  }
+);
+
+/**
  * 任务-良药甜口
  */
 export const MILK_BUCKET = new Quest(
@@ -254,7 +338,7 @@ export const CAKE = new Quest(
 );
 
 /**
- * 任务-祝你生日快乐
+ * 任务-麦田守望
  */
 export const HAY_BLOCK = new Quest(
   "hay_block",
@@ -278,5 +362,46 @@ export const HAY_BLOCK = new Quest(
       },
     },
     iconPath: "textures/ui/quest/hay_bale",
+  }
+);
+
+/**
+ * 任务-善恶之果
+ */
+export const ENCH_GOLDEN_APPLE = new Quest(
+  "enchanted_golden_apple",
+  { translate: "hy.quest.enchanted_golden_apple.title" },
+  {
+    rawtext: [
+      { translate: "hy.quest.enchanted_golden_apple.body0" },
+      { text: "\n\n" },
+      { translate: "hy.quest.enchanted_golden_apple.body1" },
+      { text: "\n" },
+      { translate: "hy.quest.enchanted_golden_apple.body2" },
+      { text: "\n" },
+      { translate: "hy.quest.enchanted_golden_apple.body3" },
+    ],
+  },
+  {
+    condition: {
+      item: {
+        itemStack: new ItemStack("enchanted_golden_apple"),
+        name: {
+          translate: "item.appleEnchanted.name",
+        },
+      },
+    },
+    award: {
+      item: {
+        name: {
+          translate: "item.diamond.name",
+        },
+        itemStack: new ItemStack("diamond", 7),
+      },
+    },
+    iconPath: "textures/items/apple_golden",
+    tips: {
+      translate: "hy.quest.enchanted_golden_apple.tips",
+    },
   }
 );

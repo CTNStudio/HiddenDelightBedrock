@@ -193,10 +193,13 @@ const QUEST_BOOK = new QuestBook(
       quests.ROTTEN_FLESH,
       quests.HONEY_BOTTLE,
       quests.CHOCOLATE,
+      quests.COOKIE,
+      quests.PUMKIN_PIE,
       quests.MARSHALLOW,
       quests.MILK_BUCKET,
       quests.CAKE,
       quests.HAY_BLOCK,
+      quests.ENCH_GOLDEN_APPLE
     ],
   },
 );
