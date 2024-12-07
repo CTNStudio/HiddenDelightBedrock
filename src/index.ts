@@ -208,7 +208,7 @@ const QUEST_BOOK = new QuestBook(
 world.afterEvents.playerSpawn.subscribe((event) => {
   if (!event.player.hasTag("hy.get_ancient_recipe")) {
     event.player.addTag("hy.get_ancient_recipe");
-    giveItem(event.player, new ItemStack("hy.get_ancient_recipe"));
+    giveItem(event.player, new ItemStack("hy:ancient_recipe"));
   }
 });
 world.afterEvents.itemCompleteUse.subscribe((event) => {
