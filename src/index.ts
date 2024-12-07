@@ -1,8 +1,9 @@
-import { world } from "@minecraft/server";
+import { ItemStack, world } from "@minecraft/server";
 import {
   clearEffect,
   EffectGroups,
   FoodItem,
+  giveItem,
   QuestBook,
   Register,
   setQuestNameSpace,
@@ -38,7 +39,7 @@ const AMETHYST_CHOCOLATE = new FoodItem(
   [],
   (event) => {
     event.source.addLevels(2);
-  },
+  }
 );
 
 const MARSHMALLOW = new FoodItem("hy:marshmallow", [], (event) => {
@@ -59,7 +60,7 @@ const AMETHYST_MARSHMALLOW = new FoodItem(
   [],
   (event) => {
     event.source.addLevels(3);
-  },
+  }
 );
 
 const MEDICINE_1 = new FoodItem(
@@ -67,7 +68,7 @@ const MEDICINE_1 = new FoodItem(
   [{ effectType: "saturation", duration: 400 }],
   (event) => {
     clearEffect(event.source, ["nausea", "hunger"]);
-  },
+  }
 );
 
 const MEDICINE_2 = new FoodItem("hy:medicine_2", [], (event) => {
@@ -79,7 +80,7 @@ const MEDICINE_3 = new FoodItem(
   [{ effectType: "night_vision", duration: 400 }],
   (event) => {
     clearEffect(event.source, ["blindness", "darkness"]);
-  },
+  }
 );
 
 const MEDICINE_4 = new FoodItem(
@@ -90,7 +91,7 @@ const MEDICINE_4 = new FoodItem(
   ],
   (event) => {
     clearEffect(event.source, "night_vision");
-  },
+  }
 );
 
 const MEDICINE_5 = new FoodItem(
@@ -98,7 +99,7 @@ const MEDICINE_5 = new FoodItem(
   [{ effectType: "absorption", duration: 400 }],
   (event) => {
     clearEffect(event.source, ["wither", "poison", "fatal_poison"]);
-  },
+  }
 );
 
 const MEDICINE_6 = new FoodItem(
@@ -106,7 +107,7 @@ const MEDICINE_6 = new FoodItem(
   [{ effectType: "strength", duration: 400 }],
   (event) => {
     clearEffect(event.source, "weakness");
-  },
+  }
 );
 
 const MEDICINE_7 = new FoodItem(
@@ -114,7 +115,7 @@ const MEDICINE_7 = new FoodItem(
   [{ effectType: "speed", duration: 600 }],
   (event) => {
     clearEffect(event.source, "slowness");
-  },
+  }
 );
 
 const MEDICINE_8 = new FoodItem(
@@ -122,7 +123,7 @@ const MEDICINE_8 = new FoodItem(
   [{ effectType: "jump_boost", duration: 600 }],
   (event) => {
     clearEffect(event.source, "slowness");
-  },
+  }
 );
 
 const MEDICINE_9 = new FoodItem("hy:medicine_9", [
@@ -144,7 +145,7 @@ const MEDICINE_12 = new FoodItem(
   [{ effectType: "village_hero", duration: 3000 }],
   (event) => {
     clearEffect(event.source, "bad_omen");
-  },
+  }
 );
 
 const MEDICINE_13 = new FoodItem(
@@ -152,7 +153,7 @@ const MEDICINE_13 = new FoodItem(
   [{ effectType: "water_breathing", duration: 300 }],
   (event) => {
     clearEffect(event.source, "mining_fatigue");
-  },
+  }
 );
 
 const MEDICINE_14 = new FoodItem("hy:medicine_14", [
@@ -199,11 +200,18 @@ const QUEST_BOOK = new QuestBook(
       quests.MILK_BUCKET,
       quests.CAKE,
       quests.HAY_BLOCK,
-      quests.ENCH_GOLDEN_APPLE
+      quests.ENCH_GOLDEN_APPLE,
     ],
-  },
+  }
 );
 
+world.afterEvents.playerSpawn.subscribe((event) => {
+  if (event.player.hasTag("hy.get_ancient_recipe")) {
+    return;
+  }
+  event.player.addTag("hy.get_ancient_recipe");
+  giveItem(event.player, new ItemStack("hy.get_ancient_recipe"));
+});
 world.afterEvents.itemCompleteUse.subscribe((event) => {
   const [PLAYER, ITEM] = [event.source, event.itemStack];
   /**
