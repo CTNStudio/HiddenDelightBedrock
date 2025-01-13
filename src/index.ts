@@ -164,12 +164,6 @@ const MEDICINE_15 = new FoodItem("hy:medicine_15", [
   { effectType: "health_boost", duration: 6000 },
 ]);
 
-const RUBY_APPLE = new FoodItem("hy:ruby_apple", [], (event) => {
-  const PLAYER = event.source;
-  PLAYER.addExperience(3);
-  world.playSound("random.orb", PLAYER.location);
-});
-
 const COPPER_APPLE = new FoodItem("hy:copper_apple", [
   { effectType: "absorption", duration: 600 },
   { effectType: "fire_resistance", duration: 200 },
