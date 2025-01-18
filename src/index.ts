@@ -1,4 +1,4 @@
-import { ItemStack, world } from "@minecraft/server";
+import { ItemStack, system, world } from "@minecraft/server";
 import { FoodItemBuilder } from "@grindstone/item-kit";
 import {
   clearEffect,
@@ -76,6 +76,21 @@ const ENCHANTED_COPPER_APPLE = new FoodItemBuilder(
   ]
 );
 
+const CHOCOLATE_POPSICLE = new FoodItemBuilder(
+  "hy:chocolate_popsicle",
+  [],
+  (event) => {
+    event.source.addTag("hy:immune_desert_debuff");
+    event.source.onScreenDisplay.setActionBar({
+      translate: "hy.message.immune_desert_debuff",
+    });
+    system.runTimeout(() => {
+      if (event.source.isValid())
+        event.source.removeTag("hy:immune_desert_debuff");
+    });
+  }
+);
+
 QuestManager.setNameSpace("hy-q");
 const QUEST_BOOK = new QuestBookBuilder(
   "hy:ancient_recipe",
@@ -133,3 +148,4 @@ AMETHYST_MARSHMALLOW.build();
 COPPER_APPLE.build();
 ENCHANTED_COPPER_APPLE.build();
 QUEST_BOOK.build();
+CHOCOLATE_POPSICLE.build();
