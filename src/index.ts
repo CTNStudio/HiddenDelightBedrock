@@ -1,40 +1,38 @@
 import { ItemStack, world } from "@minecraft/server";
+import { FoodItemBuilder } from "@grindstone/item-kit";
 import {
   clearEffect,
   EffectGroups,
-  FoodItem,
   giveItem,
-  QuestBook,
-  Register,
-  setQuestNameSpace,
   withPercentChance,
-} from "@lazuli/ldk2";
+} from "@grindstone/utils";
+import { QuestBookBuilder, QuestManager } from "@grindstone/quest-kit";
 import * as quests from "./quest";
 
-const HONEY_CANDY = new FoodItem("hy:honey_candy", [
+const HONEY_CANDY = new FoodItemBuilder("hy:honey_candy", [
   { effectType: "saturation", duration: 600 },
 ]);
 
-const SYRUP = new FoodItem("hy:syrup", [
+const SYRUP = new FoodItemBuilder("hy:syrup", [
   { effectType: "fire_resistance", duration: 160 },
 ]);
 
-const CHOCOLATE_PASTE = new FoodItem("hy:chocolate_paste", [
+const CHOCOLATE_PASTE = new FoodItemBuilder("hy:chocolate_paste", [
   {
     effectType: "fire_resistance",
     duration: 900,
   },
 ]);
 
-const MILK_CHOCOLATE = new FoodItem("hy:milk_chocolate", [], (event) => {
+const MILK_CHOCOLATE = new FoodItemBuilder("hy:milk_chocolate", [], (event) => {
   clearEffect(event.source, EffectGroups.all);
 });
 
-const SWEET_BERRY_CHOCOLATE = new FoodItem("hy:sweet_berry_chocolate", [
+const SWEET_BERRY_CHOCOLATE = new FoodItemBuilder("hy:sweet_berry_chocolate", [
   { effectType: "instant_health", duration: 1, amplifier: 1 },
 ]);
 
-const AMETHYST_CHOCOLATE = new FoodItem(
+const AMETHYST_CHOCOLATE = new FoodItemBuilder(
   "hy:amethyst_chocolate",
   [],
   (event) => {
@@ -42,7 +40,7 @@ const AMETHYST_CHOCOLATE = new FoodItem(
   }
 );
 
-const MARSHMALLOW = new FoodItem("hy:marshmallow", [], (event) => {
+const MARSHMALLOW = new FoodItemBuilder("hy:marshmallow", [], (event) => {
   withPercentChance({
     chance: 0.5,
     event: () => {
@@ -51,11 +49,12 @@ const MARSHMALLOW = new FoodItem("hy:marshmallow", [], (event) => {
   });
 });
 
-const SWEET_BERRY_MARSHMALLOW = new FoodItem("hy:sweet_berry_marshmallow", [
-  { effectType: "instant_health", duration: 1 },
-]);
+const SWEET_BERRY_MARSHMALLOW = new FoodItemBuilder(
+  "hy:sweet_berry_marshmallow",
+  [{ effectType: "instant_health", duration: 1 }]
+);
 
-const AMETHYST_MARSHMALLOW = new FoodItem(
+const AMETHYST_MARSHMALLOW = new FoodItemBuilder(
   "hy:amethyst_marshmallow",
   [],
   (event) => {
@@ -63,140 +62,40 @@ const AMETHYST_MARSHMALLOW = new FoodItem(
   }
 );
 
-const MEDICINE_1 = new FoodItem(
-  "hy:medicine_1",
-  [{ effectType: "saturation", duration: 400 }],
-  (event) => {
-    clearEffect(event.source, ["nausea", "hunger"]);
-  }
-);
-
-const MEDICINE_2 = new FoodItem("hy:medicine_2", [], (event) => {
-  clearEffect(event.source, EffectGroups.bad);
-});
-
-const MEDICINE_3 = new FoodItem(
-  "hy:medicine_3",
-  [{ effectType: "night_vision", duration: 400 }],
-  (event) => {
-    clearEffect(event.source, ["blindness", "darkness"]);
-  }
-);
-
-const MEDICINE_4 = new FoodItem(
-  "hy:medicine_4",
-  [
-    { effectType: "blindness", duration: 600 },
-    { effectType: "darkness", duration: 600 },
-  ],
-  (event) => {
-    clearEffect(event.source, "night_vision");
-  }
-);
-
-const MEDICINE_5 = new FoodItem(
-  "hy:medicine_5",
-  [{ effectType: "absorption", duration: 400 }],
-  (event) => {
-    clearEffect(event.source, ["wither", "poison", "fatal_poison"]);
-  }
-);
-
-const MEDICINE_6 = new FoodItem(
-  "hy:medicine_6",
-  [{ effectType: "strength", duration: 400 }],
-  (event) => {
-    clearEffect(event.source, "weakness");
-  }
-);
-
-const MEDICINE_7 = new FoodItem(
-  "hy:medicine_7",
-  [{ effectType: "speed", duration: 600 }],
-  (event) => {
-    clearEffect(event.source, "slowness");
-  }
-);
-
-const MEDICINE_8 = new FoodItem(
-  "hy:medicine_8",
-  [{ effectType: "jump_boost", duration: 600 }],
-  (event) => {
-    clearEffect(event.source, "slowness");
-  }
-);
-
-const MEDICINE_9 = new FoodItem("hy:medicine_9", [
-  { effectType: "poison", duration: 400 },
-  { effectType: "slowness", duration: 400 },
-  { effectType: "weakness", duration: 400 },
-]);
-
-const MEDICINE_10 = new FoodItem("hy:medicine_10", [], (event) => {
-  event.source.kill();
-});
-
-const MEDICINE_11 = new FoodItem("hy:medicine_9", [], (event) => {
-  clearEffect(event.source, EffectGroups.good);
-});
-
-const MEDICINE_12 = new FoodItem(
-  "hy:medicine_12",
-  [{ effectType: "village_hero", duration: 3000 }],
-  (event) => {
-    clearEffect(event.source, "bad_omen");
-  }
-);
-
-const MEDICINE_13 = new FoodItem(
-  "hy:medicine_13",
-  [{ effectType: "water_breathing", duration: 300 }],
-  (event) => {
-    clearEffect(event.source, "mining_fatigue");
-  }
-);
-
-const MEDICINE_14 = new FoodItem("hy:medicine_14", [
-  { effectType: "fire_resistance", duration: 400 },
-]);
-
-const MEDICINE_15 = new FoodItem("hy:medicine_15", [
-  { effectType: "health_boost", duration: 6000 },
-]);
-
-const COPPER_APPLE = new FoodItem("hy:copper_apple", [
+const COPPER_APPLE = new FoodItemBuilder("hy:copper_apple", [
   { effectType: "absorption", duration: 600 },
   { effectType: "fire_resistance", duration: 200 },
 ]);
 
-const ENCHANTED_COPPER_APPLE = new FoodItem("hy:enchanted_copper_apple", [
-  { effectType: "absorption", duration: 1200 },
-  { effectType: "fire_resistance", duration: 1200 },
-  { effectType: "speed", duration: 200 },
-]);
+const ENCHANTED_COPPER_APPLE = new FoodItemBuilder(
+  "hy:enchanted_copper_apple",
+  [
+    { effectType: "absorption", duration: 1200 },
+    { effectType: "fire_resistance", duration: 1200 },
+    { effectType: "speed", duration: 200 },
+  ]
+);
 
-setQuestNameSpace("hy-q");
-const QUEST_BOOK = new QuestBook(
+QuestManager.setNameSpace("hy-q");
+const QUEST_BOOK = new QuestBookBuilder(
   "hy:ancient_recipe",
   { translate: "hy.quest.interlude_food.title" },
   { translate: "hy.quest.interlude.body" },
-  {
-    quests: [
-      quests.WHEAT,
-      quests.MELON_SLICE,
-      quests.COPPER_APPLE,
-      quests.ROTTEN_FLESH,
-      quests.HONEY_BOTTLE,
-      quests.CHOCOLATE,
-      quests.COOKIE,
-      quests.PUMKIN_PIE,
-      quests.MARSHALLOW,
-      quests.MILK_BUCKET,
-      quests.CAKE,
-      quests.HAY_BLOCK,
-      quests.ENCH_GOLDEN_APPLE,
-    ],
-  }
+  [
+    quests.WHEAT,
+    quests.MELON_SLICE,
+    quests.COPPER_APPLE,
+    quests.ROTTEN_FLESH,
+    quests.HONEY_BOTTLE,
+    quests.CHOCOLATE,
+    quests.COOKIE,
+    quests.PUMKIN_PIE,
+    quests.MARSHALLOW,
+    quests.MILK_BUCKET,
+    quests.CAKE,
+    quests.HAY_BLOCK,
+    quests.ENCH_GOLDEN_APPLE,
+  ]
 );
 
 world.afterEvents.playerSpawn.subscribe((event) => {
@@ -208,7 +107,7 @@ world.afterEvents.playerSpawn.subscribe((event) => {
 world.afterEvents.itemCompleteUse.subscribe((event) => {
   const [PLAYER, ITEM] = [event.source, event.itemStack];
   /**
-   * @tag hy:copper_foods——标记一个物品为铜食物，并统计其食用次数
+   * @tag `hy:copper_foods` 标记一个物品为铜食物，并统计其食用次数
    * 铜食物食用12次后会中毒
    */
   if (ITEM.hasTag("hy:copper_foods")) {
@@ -221,32 +120,16 @@ world.afterEvents.itemCompleteUse.subscribe((event) => {
     }
   }
 });
-Register.registry([
-  HONEY_CANDY,
-  SYRUP,
-  CHOCOLATE_PASTE,
-  MILK_CHOCOLATE,
-  SWEET_BERRY_CHOCOLATE,
-  AMETHYST_CHOCOLATE,
-  MARSHMALLOW,
-  SWEET_BERRY_MARSHMALLOW,
-  AMETHYST_MARSHMALLOW,
-  MEDICINE_1,
-  MEDICINE_2,
-  MEDICINE_3,
-  MEDICINE_4,
-  MEDICINE_5,
-  MEDICINE_6,
-  MEDICINE_7,
-  MEDICINE_8,
-  MEDICINE_9,
-  MEDICINE_10,
-  MEDICINE_11,
-  MEDICINE_12,
-  MEDICINE_13,
-  MEDICINE_14,
-  MEDICINE_15,
-  COPPER_APPLE,
-  ENCHANTED_COPPER_APPLE,
-  QUEST_BOOK,
-]);
+
+HONEY_CANDY.build();
+SYRUP.build();
+CHOCOLATE_PASTE.build();
+MILK_CHOCOLATE.build();
+SWEET_BERRY_CHOCOLATE.build();
+AMETHYST_CHOCOLATE.build();
+MARSHMALLOW.build();
+SWEET_BERRY_MARSHMALLOW.build();
+AMETHYST_MARSHMALLOW.build();
+COPPER_APPLE.build();
+ENCHANTED_COPPER_APPLE.build();
+QUEST_BOOK.build();

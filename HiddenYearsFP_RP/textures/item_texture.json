@@ -2,48 +2,6 @@
   "resource_pack_name": "舌尖上的《隐藏之年²》",
   "texture_name": "atlas.items",
   "texture_data": {
-    "hy.medicines.1": {
-      "textures": "textures/items/medicine_1"
-    },
-    "hy.medicines.2": {
-      "textures": "textures/items/medicine_2"
-    },
-    "hy.medicines.3": {
-      "textures": "textures/items/medicine_3"
-    },
-    "hy.medicines.4": {
-      "textures": "textures/items/medicine_4"
-    },
-    "hy.medicines.5": {
-      "textures": "textures/items/medicine_5"
-    },
-    "hy.medicines.6": {
-      "textures": "textures/items/medicine_6"
-    },
-    "hy.medicines.7": {
-      "textures": "textures/items/medicine_7"
-    },
-    "hy.medicines.8": {
-      "textures": "textures/items/medicine_8"
-    },
-    "hy.medicines.9": {
-      "textures": "textures/items/medicine_9"
-    },
-    "hy.medicines.10": {
-      "textures": "textures/items/medicine_10"
-    },
-    "hy.medicines.11": {
-      "textures": "textures/items/medicine_11"
-    },
-    "hy.medicines.12": {
-      "textures": "textures/items/medicine_12"
-    },
-    "hy.medicines.13": {
-      "textures": "textures/items/medicine_13"
-    },
-    "hy.medicines.14": {
-      "textures": "textures/items/medicine_14"
-    },
     "hy.copper_apple": {
       "textures": "textures/items/copper_apple"
     },
@@ -100,6 +58,9 @@
     },
     "hy.ancient_recipe": {
       "textures": "textures/items/ancient_recipe"
+    },
+    "hy.chocolate_popsicle ": {
+      "textures": "textures/items/chocolate_popsicle "
     }
   }
 }
