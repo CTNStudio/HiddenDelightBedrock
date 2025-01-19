@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Minecraft addon",
   "scripts": {
-    "build:script": "node build/script.mjs"
+    "build": "node build/script.mjs"
   },
   "author": "CTN Studios",
   "license": "BSD-3-Clause",

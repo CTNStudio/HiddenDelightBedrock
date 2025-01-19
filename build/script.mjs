@@ -4,7 +4,7 @@ import * as esbuild from "esbuild";
 esbuild.build({
   entryPoints: ["src/index.ts"],
   bundle: true,
-  outfile: "./HiddenYearsFP_BP/scripts/index.js",
+  outfile: "./HiddenDelight_BP/scripts/index.js",
   format: "esm",
   external: ["@minecraft/server", "@minecraft/server-ui"],
   minify: true,
