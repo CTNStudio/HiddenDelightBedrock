@@ -70,6 +70,9 @@
     },
     "hiddendelight.sand_fish_wrap": {
       "textures": "textures/items/sand_fish_wrap"
+    },
+    "hiddendelight.copper_rice": {
+      "textures": "textures/items/copper_rice"
     }
   }
 }
