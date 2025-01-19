@@ -1,4 +1,4 @@
-import { ItemStack, system, world } from "@minecraft/server";
+import { ItemStack, world } from "@minecraft/server";
 import { FoodItemBuilder } from "@grindstone/item-kit";
 import {
   clearEffect,
@@ -8,6 +8,7 @@ import {
 } from "@grindstone/utils";
 import { QuestBookBuilder, QuestManager } from "@grindstone/quest-kit";
 import * as quests from "./quest";
+import { copperFoodCounter, giveAncientRecipe, onEatPopsicle } from "./utils";
 
 const HONEY_CANDY = new FoodItemBuilder("hiddendelight:honey_candy", [
   { effectType: "saturation", duration: 600 },
@@ -80,14 +81,23 @@ const CHOCOLATE_POPSICLE = new FoodItemBuilder(
   "hiddendelight:chocolate_popsicle",
   [],
   (event) => {
-    event.source.addTag("hy:immune_desert_debuff");
-    event.source.onScreenDisplay.setActionBar({
-      translate: "hiddendelight.message.immune_desert_debuff",
-    });
-    system.runTimeout(() => {
-      if (event.source.isValid())
-        event.source.removeTag("hy:immune_desert_debuff");
-    });
+    onEatPopsicle(event);
+  }
+);
+
+const AMETHYST_POPSICLE = new FoodItemBuilder(
+  "hiddendelight:amethyst_popsicle",
+  [],
+  (event) => {
+    onEatPopsicle(event);
+  }
+);
+
+const SWEET_BERRY_POPSICLE = new FoodItemBuilder(
+  "hiddendelight:sweet_berry_popsicle",
+  [],
+  (event) => {
+    onEatPopsicle(event);
   }
 );
 
@@ -113,29 +123,6 @@ const QUEST_BOOK = new QuestBookBuilder(
   ]
 );
 
-world.afterEvents.playerSpawn.subscribe((event) => {
-  if (!event.player.hasTag("hy.get_ancient_recipe")) {
-    event.player.addTag("hy.get_ancient_recipe");
-    giveItem(event.player, new ItemStack("hiddendelight:ancient_recipe"));
-  }
-});
-world.afterEvents.itemCompleteUse.subscribe((event) => {
-  const [PLAYER, ITEM] = [event.source, event.itemStack];
-  /**
-   * @tag `hiddendelight:copper_foods` 标记一个物品为铜食物，并统计其食用次数
-   * 铜食物食用12次后会中毒
-   */
-  if (ITEM.hasTag("hiddendelight:copper_foods")) {
-    let eatFrequency = PLAYER.getDynamicProperty("hiddendelight:copper_foods") as number;
-    if (!eatFrequency) PLAYER.setDynamicProperty("hiddendelight:copper_foods", 0);
-    PLAYER.setDynamicProperty("hiddendelight:copper_foods", eatFrequency++);
-    if (eatFrequency > 12) {
-      PLAYER.addEffect("poison", 100);
-      PLAYER.setDynamicProperty("hiddendelight:copper_foods", 0);
-    }
-  }
-});
-
 HONEY_CANDY.build();
 SYRUP.build();
 CHOCOLATE_PASTE.build();
@@ -149,3 +136,7 @@ COPPER_APPLE.build();
 ENCHANTED_COPPER_APPLE.build();
 QUEST_BOOK.build();
 CHOCOLATE_POPSICLE.build();
+SWEET_BERRY_POPSICLE.build();
+AMETHYST_POPSICLE.build();
+giveAncientRecipe();
+copperFoodCounter();
