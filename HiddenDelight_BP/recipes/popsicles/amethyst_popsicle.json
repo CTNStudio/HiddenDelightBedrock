@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amethyst_popsicle"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [" ##", "A##", "XA"],
+    "key": {
+      "X": {
+        "item": "stick"
+      },
+      "A": {
+        "item": "ice"
+      },
+      "#": {
+        "item": "amethyst_shard"
+      }
+    },
+    "unlock": [
+      {
+        "item": "stick"
+      },
+      {
+        "item": "ice"
+      },
+      {
+        "item": "amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:amethyst_popsicle"
+    }
+  }
+}

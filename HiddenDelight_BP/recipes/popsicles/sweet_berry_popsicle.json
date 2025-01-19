@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sweet_berry_popsicle"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [" ##", "A##", "XA"],
+    "key": {
+      "X": {
+        "item": "stick"
+      },
+      "A": {
+        "item": "ice"
+      },
+      "#": {
+        "item": "sweet_berries"
+      }
+    },
+    "unlock": [
+      {
+        "item": "stick"
+      },
+      {
+        "item": "ice"
+      },
+      {
+        "item": "sweet_berries"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:sweet_berry_popsicle"
+    }
+  }
+}

@@ -62,6 +62,12 @@
     "hiddendelight.chocolate_popsicle ": {
       "textures": "textures/items/chocolate_popsicle"
     },
+    "hiddendelight.amethyst_popsicle ": {
+      "textures": "textures/items/amethyst_popsicle"
+    },
+    "hiddendelight.sweet_berry_popsicle ": {
+      "textures": "textures/items/sweet_berry_popsicle"
+    },
     "hiddendelight.camel_meat ": {
       "textures": "textures/items/camel_meat"
     },
