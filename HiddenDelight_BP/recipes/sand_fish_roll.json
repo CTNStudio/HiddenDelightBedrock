@@ -1,0 +1,34 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "hiddendelight_sand_fish_roll"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["W#", "W"],
+    "key": {
+      "#": {
+        "item": "farmersdelight:cooked_rice"
+      },
+      "W": {
+        "item": "hiddendelight:sand_fish_slice"
+      }
+    },
+    "unlock": [
+      {
+        "item": "farmersdelight:cooked_rice"
+      },
+      {
+        "item": "hiddendelight:sand_fish_slice"
+      }
+    ],
+    "result": [
+      {
+        "item": "hiddendelight:sand_fish_roll"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ]
+  }
+}
