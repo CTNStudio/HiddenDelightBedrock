@@ -73,6 +73,12 @@
     },
     "hiddendelight.copper_rice": {
       "textures": "textures/items/copper_rice"
+    },
+    "hiddendelight.sand_fish_slice": {
+      "textures": "textures/items/sand_fish_slice"
+    },
+    "hiddendelight.cooked_sand_fish_slice": {
+      "textures": "textures/items/cooked_sand_fish_slice"
     }
   }
 }

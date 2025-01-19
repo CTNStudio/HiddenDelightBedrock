@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "furnace_cooked_sand_fish_slice"
+    },
+
+    "unlock": [
+      {
+        "item": "hiddendelight:sand_fish_slice"
+      }
+    ],
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "hiddendelight:sand_fish_slice",
+    "output": "hiddendelight:cooked_sand_fish_slice"
+  }
+}
