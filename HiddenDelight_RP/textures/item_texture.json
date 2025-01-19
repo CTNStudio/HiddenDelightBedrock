@@ -94,6 +94,9 @@
     },
     "hiddendelight.stuffed_copper_potato": {
       "textures": "textures/items/stuffed_copper_potato"
+    },
+    "hiddendelight.sand_bone_broth": {
+      "textures": "textures/items/sand_bone_broth"
     }
   }
 }
