@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.11",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bricks_by_cutter"
+    },
+    "tags": ["stonecutter"],
+    "ingredients": [
+      {
+        "item": "hiddendelight:chocolate_block"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hiddendelight:chocolate_block"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:chocolate_bricks"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hiddendelight:chocolate_bar",
+      "menu_category": {
+        "group": "itemGroup.name.miscFood",
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:icon": "hiddendelight.chocolate_bar",
+      "minecraft:display_name": {
+        "value": "hiddendelight.item.chocolate_bar"
+      },
+      "minecraft:damage": 2,
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.5
+      },
+      "minecraft:food": {
+        "nutrition": 14,
+        "can_always_eat": true,
+        "saturation_modifier": 0.6
+      }
+    }
+  }
+}

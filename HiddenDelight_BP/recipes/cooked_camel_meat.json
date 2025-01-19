@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "furnace_camel_meat"
+    },
+
+    "unlock": [
+      {
+        "item": "hiddendelight:camel_meat"
+      }
+    ],
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "hiddendelight:camel_meat",
+    "output": "hiddendelight:cooked_camel_meat"
+  }
+}

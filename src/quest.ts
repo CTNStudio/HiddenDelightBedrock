@@ -6,8 +6,8 @@ import { Quest } from "@grindstone/quest-kit";
  */
 export const WHEAT = new Quest(
   "wheat",
-  { translate: "hy.quest.wheat.title" },
-  { translate: "hy.quest.wheat.body" },
+  { translate: "hiddendelight.quest.wheat.title" },
+  { translate: "hiddendelight.quest.wheat.body" },
   {
     condition: {
       item: {
@@ -20,7 +20,7 @@ export const WHEAT = new Quest(
     award: {
       item: {
         name: {
-          translate: "hy.item.amethyst_ingot",
+          translate: "hiddendelight.item.amethyst_ingot",
         },
         itemStack: new ItemStack("gold_ingot", 2),
       },
@@ -34,8 +34,8 @@ export const WHEAT = new Quest(
  */
 export const MELON_SLICE = new Quest(
   "melon_slice",
-  { translate: "hy.quest.melon_slice.title" },
-  { translate: "hy.quest.melon_slice.body" },
+  { translate: "hiddendelight.quest.melon_slice.title" },
+  { translate: "hiddendelight.quest.melon_slice.body" },
   {
     condition: {
       item: {
@@ -48,7 +48,7 @@ export const MELON_SLICE = new Quest(
     award: {
       item: {
         name: {
-          translate: "hy.item.amethyst_ingot",
+          translate: "hiddendelight.item.amethyst_ingot",
         },
         itemStack: new ItemStack("gold_ingot", 2),
       },
@@ -62,21 +62,21 @@ export const MELON_SLICE = new Quest(
  */
 export const COPPER_APPLE = new Quest(
   "copper_apple",
-  { translate: "hy.quest.copper_apple.title" },
-  { translate: "hy.quest.copper_apple.body" },
+  { translate: "hiddendelight.quest.copper_apple.title" },
+  { translate: "hiddendelight.quest.copper_apple.body" },
   {
     condition: {
       item: {
-        itemStack: new ItemStack("hy:copper_apple"),
+        itemStack: new ItemStack("hiddendelight:copper_apple"),
         name: {
-          translate: "hy.item.copper_apple",
+          translate: "hiddendelight.item.copper_apple",
         },
       },
     },
     award: {
       item: {
         name: {
-          translate: "hy.item.amethyst_ingot",
+          translate: "hiddendelight.item.amethyst_ingot",
         },
         itemStack: new ItemStack("gold_ingot", 3),
       },
@@ -90,8 +90,8 @@ export const COPPER_APPLE = new Quest(
  */
 export const ROTTEN_FLESH = new Quest(
   "rotten_flesh",
-  { translate: "hy.quest.rotten_flesh.title" },
-  { translate: "hy.quest.rotten_flesh.body" },
+  { translate: "hiddendelight.quest.rotten_flesh.title" },
+  { translate: "hiddendelight.quest.rotten_flesh.body" },
   {
     condition: {
       item: {
@@ -118,8 +118,8 @@ export const ROTTEN_FLESH = new Quest(
  */
 export const HONEY_BOTTLE = new Quest(
   "honey_bottle",
-  { translate: "hy.quest.honey_bottle.title" },
-  { translate: "hy.quest.honey_bottle.body" },
+  { translate: "hiddendelight.quest.honey_bottle.title" },
+  { translate: "hiddendelight.quest.honey_bottle.body" },
   {
     condition: {
       item: {
@@ -146,14 +146,14 @@ export const HONEY_BOTTLE = new Quest(
  */
 export const CHOCOLATE = new Quest(
   "chocolate",
-  { translate: "hy.quest.chocolate.title" },
-  { translate: "hy.quest.chocolate.body" },
+  { translate: "hiddendelight.quest.chocolate.title" },
+  { translate: "hiddendelight.quest.chocolate.body" },
   {
     condition: {
       item: {
-        itemStack: new ItemStack("hy:chocolate"),
+        itemStack: new ItemStack("hiddendelight:chocolate"),
         name: {
-          translate: "hy.item.chocolate",
+          translate: "hiddendelight.item.chocolate",
         },
       },
     },
@@ -174,14 +174,14 @@ export const CHOCOLATE = new Quest(
  */
 export const MARSHALLOW = new Quest(
   "marshallow",
-  { translate: "hy.quest.marshallow.title" },
-  { translate: "hy.quest.marshallow.body" },
+  { translate: "hiddendelight.quest.marshallow.title" },
+  { translate: "hiddendelight.quest.marshallow.body" },
   {
     condition: {
       item: {
-        itemStack: new ItemStack("hy:marshallow"),
+        itemStack: new ItemStack("hiddendelight:marshallow"),
         name: {
-          translate: "hy.item.marshallow",
+          translate: "hiddendelight.item.marshallow",
         },
       },
     },
@@ -202,8 +202,8 @@ export const MARSHALLOW = new Quest(
  */
 export const COOKIE = new Quest(
   "cookie",
-  { translate: "hy.quest.cookie.title" },
-  { translate: "hy.quest.cookie.body" },
+  { translate: "hiddendelight.quest.cookie.title" },
+  { translate: "hiddendelight.quest.cookie.body" },
   {
     condition: {
       item: {
@@ -230,8 +230,8 @@ export const COOKIE = new Quest(
  */
 export const BEETROOT_SOUP = new Quest(
   "beetroot_soup",
-  { translate: "hy.quest.beetroot_soup.title" },
-  { translate: "hy.quest.beetroot_soup.body" },
+  { translate: "hiddendelight.quest.beetroot_soup.title" },
+  { translate: "hiddendelight.quest.beetroot_soup.body" },
   {
     condition: {
       item: {
@@ -258,8 +258,8 @@ export const BEETROOT_SOUP = new Quest(
  */
 export const PUMKIN_PIE = new Quest(
   "pumpkin_pie",
-  { translate: "hy.quest.pumpkin_pie.title" },
-  { translate: "hy.quest.pumpkin_pie.body" },
+  { translate: "hiddendelight.quest.pumpkin_pie.title" },
+  { translate: "hiddendelight.quest.pumpkin_pie.body" },
   {
     condition: {
       item: {
@@ -286,8 +286,8 @@ export const PUMKIN_PIE = new Quest(
  */
 export const MILK_BUCKET = new Quest(
   "milk_bucket",
-  { translate: "hy.quest.milk_bucket.title" },
-  { translate: "hy.quest.milk_bucket.body" },
+  { translate: "hiddendelight.quest.milk_bucket.title" },
+  { translate: "hiddendelight.quest.milk_bucket.body" },
   {
     condition: {
       item: {
@@ -314,8 +314,8 @@ export const MILK_BUCKET = new Quest(
  */
 export const CAKE = new Quest(
   "cake",
-  { translate: "hy.quest.cake.title" },
-  { translate: "hy.quest.cake.body" },
+  { translate: "hiddendelight.quest.cake.title" },
+  { translate: "hiddendelight.quest.cake.body" },
   {
     condition: {
       item: {
@@ -342,8 +342,8 @@ export const CAKE = new Quest(
  */
 export const HAY_BLOCK = new Quest(
   "hay_block",
-  { translate: "hy.quest.hay_block.title" },
-  { translate: "hy.quest.hay_block.body" },
+  { translate: "hiddendelight.quest.hay_block.title" },
+  { translate: "hiddendelight.quest.hay_block.body" },
   {
     condition: {
       item: {
@@ -370,16 +370,16 @@ export const HAY_BLOCK = new Quest(
  */
 export const ENCH_GOLDEN_APPLE = new Quest(
   "enchanted_golden_apple",
-  { translate: "hy.quest.enchanted_golden_apple.title" },
+  { translate: "hiddendelight.quest.enchanted_golden_apple.title" },
   {
     rawtext: [
-      { translate: "hy.quest.enchanted_golden_apple.body0" },
+      { translate: "hiddendelight.quest.enchanted_golden_apple.body0" },
       { text: "\n\n" },
-      { translate: "hy.quest.enchanted_golden_apple.body1" },
+      { translate: "hiddendelight.quest.enchanted_golden_apple.body1" },
       { text: "\n" },
-      { translate: "hy.quest.enchanted_golden_apple.body2" },
+      { translate: "hiddendelight.quest.enchanted_golden_apple.body2" },
       { text: "\n" },
-      { translate: "hy.quest.enchanted_golden_apple.body3" },
+      { translate: "hiddendelight.quest.enchanted_golden_apple.body3" },
     ],
   },
   {
@@ -401,7 +401,7 @@ export const ENCH_GOLDEN_APPLE = new Quest(
     },
     iconPath: "textures/items/apple_golden",
     tips: {
-      translate: "hy.quest.enchanted_golden_apple.tips",
+      translate: "hiddendelight.quest.enchanted_golden_apple.tips",
     },
   }
 );

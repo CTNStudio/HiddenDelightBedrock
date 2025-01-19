@@ -1,0 +1,95 @@
+pack.name=隱藏樂事
+pack.description=「探索未知的世間」 ｜ 正式版 1.0.0
+
+gui.check=提交任務
+gui.about=關於
+hiddendelight.empty=     
+
+hiddendelight.quest.wheat.title=開墾荒地
+hiddendelight.quest.wheat.body=開墾荒地，播下小麥種子並靜候發芽
+hiddendelight.quest.melon_slice.title=炎炎夏日
+hiddendelight.quest.melon_slice.body=切開一塊西瓜以獲得裏面的西瓜片
+hiddendelight.quest.copper_apple.title=重金屬超標
+hiddendelight.quest.copper_apple.body=將銅錠與蘋果捏合到一起，就會有神奇的事情發生……
+hiddendelight.quest.rotten_flesh.title=朽爛之肉
+hiddendelight.quest.rotten_flesh.body=擊敗僵屍，獲得腐肉
+hiddendelight.quest.honey_bottle.title=與蜂共舞
+hiddendelight.quest.honey_bottle.body=對著滿蜜的蜂巢或蜂箱使用玻璃瓶，獲得蜂蜜瓶
+hiddendelight.quest.chocolate.title=巧克力！
+hiddendelight.quest.chocolate.body=熔煉可可果獲得巧克力
+hiddendelight.quest.marshallow.title=輕飄飄的
+hiddendelight.quest.marshallow.body=熔煉糖獲得這種吃起來輕飄飄的甜品
+hiddendelight.quest.milk_bucket.title=良藥……甜口？
+hiddendelight.quest.milk_bucket.body=為你去除亂七八糟的狀態效果，不論好壞！
+hiddendelight.quest.cake.title=祝你生日快樂
+hiddendelight.quest.cake.body=用奶桶、雞蛋、糖和小麥合成生日蛋糕
+hiddendelight.quest.hay_block.title=麥田守望
+hiddendelight.quest.hay_block.body=開墾一塊很大很大的田地並收獲作物
+
+hiddendelight.item.medicines.1=蒲公英藥水
+hiddendelight.item.medicines.2=謎之藥水
+hiddendelight.item.medicines.3=蘭花藥水
+hiddendelight.item.medicines.4=絨球蔥藥水
+hiddendelight.item.medicines.5=藍花美耳草藥水
+hiddendelight.item.medicines.6=郁金香藥水
+hiddendelight.item.medicines.7=濱菊藥水
+hiddendelight.item.medicines.8=矢車菊藥水
+hiddendelight.item.medicines.9=鈴蘭藥水
+hiddendelight.item.medicines.10=抹除藥水
+hiddendelight.item.medicines.11=火把花藥水
+hiddendelight.item.medicines.12=瓶子草藥水
+hiddendelight.item.medicines.13=海草藥水
+hiddendelight.item.medicines.14=向日葵藥水
+
+hiddendelight.item.copper_kelp=銅海帶
+hiddendelight.item.copper_carrot=銅胡蘿蔔
+hiddendelight.item.copper_bread=銅面包
+hiddendelight.item.copper_hodgepodge=銅之雜燴
+hiddendelight.item.copper_melon_slice=銅西瓜片
+hiddendelight.item.copper_potato=銅馬鈴薯
+
+hiddendelight.item.honey_candy=蜜味糖
+hiddendelight.item.syrup=糖水
+hiddendelight.item.chocolate_paste=巧克力糊
+hiddendelight.item.chocolate_bar=巧克力棒
+hiddendelight.item.chocolate=巧克力
+hiddendelight.item.milk_chocolate=牛奶巧克力
+hiddendelight.item.sweet_berry_chocolate=甜漿果巧克力
+hiddendelight.item.amethyst_chocolate=水晶巧克力
+hiddendelight.item.marshallow=棉花糖
+hiddendelight.item.sweet_berry_marshallow=甜漿果棉花糖
+hiddendelight.item.amethyst_marshallow=水晶棉花糖
+hiddendelight.block.chocolate_block=巧克力塊
+hiddendelight.block.chocolate_bricks=巧克力磚
+
+hiddendelight.quest.chapter1.title=§d[序章]§r 踏上旅途
+hiddendelight.quest.chapter2.title=§d[第一章]§r 染上鮮血的寶石
+hiddendelight.quest.chapter3.title=§d[第二章]§r 另外兩個世界
+hiddendelight.quest.chapter4.title=§d[第三章]§r 風起層沙
+hiddendelight.quest.interlude_food.title=§d[間章]§r 嘗遍世間百味
+hiddendelight.quest.interlude.title=§d[間章]§r 進度與成就
+hiddendelight.quest.chapter1.body=在旅途啟程之前，先完成這些事情吧......
+hiddendelight.quest.chapter2.body=千年之前，一位術士獻出鮮血，故事就此開始
+hiddendelight.quest.chapter3.body=足跡踏遍三個世界或一個星球
+hiddendelight.quest.chapter4.body=新聚紀前的故事
+hiddendelight.quest.interlude.body=在冒險的間隙也休息一下吧
+
+story.hs.title1=一切的開始？
+story.hs.title2=誕生於毀滅的新生
+story.hs.title3=探索這世間
+
+api.unexpected_error.quest=任務系統出現未知錯誤
+quest.finished=你完成了一個任務！
+quest.done=任務已完成
+quest.check=嘗試提交任務
+quest.not_enough.item=材料不足，你需要 %1 個 %2 才能完成這個任務
+quest.not_enough.level=你需要 %1 級經驗才能完成這個任務
+quest.not_enough.xp=你需要 %1 點經驗才能完成這個任務
+quest.condition=§e完成條件§r：
+quest.award=§e完成獎勵§r：
+quest.item=%1 個 %2;
+quest.xp=%1 點經驗
+quest.level=%1 級經驗
+quest.reward.none=無獎勵
+quest.condition.none=無條件
+quest.tips=§4提示§r：

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hiddendelight:camel_meat",
+      "menu_category": {
+        "group": "itemGroup.name.miscFood",
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "hiddendelight.camel_meat",
+      "minecraft:display_name": {
+        "value": "hiddendelight.item.camel_meat"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.5
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "can_always_eat": true,
+        "saturation_modifier": 0.6
+      }
+    }
+  }
+}

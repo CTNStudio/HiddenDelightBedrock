@@ -9,38 +9,38 @@ import {
 import { QuestBookBuilder, QuestManager } from "@grindstone/quest-kit";
 import * as quests from "./quest";
 
-const HONEY_CANDY = new FoodItemBuilder("hy:honey_candy", [
+const HONEY_CANDY = new FoodItemBuilder("hiddendelight:honey_candy", [
   { effectType: "saturation", duration: 600 },
 ]);
 
-const SYRUP = new FoodItemBuilder("hy:syrup", [
+const SYRUP = new FoodItemBuilder("hiddendelight:syrup", [
   { effectType: "fire_resistance", duration: 160 },
 ]);
 
-const CHOCOLATE_PASTE = new FoodItemBuilder("hy:chocolate_paste", [
+const CHOCOLATE_PASTE = new FoodItemBuilder("hiddendelight:chocolate_paste", [
   {
     effectType: "fire_resistance",
     duration: 900,
   },
 ]);
 
-const MILK_CHOCOLATE = new FoodItemBuilder("hy:milk_chocolate", [], (event) => {
+const MILK_CHOCOLATE = new FoodItemBuilder("hiddendelight:milk_chocolate", [], (event) => {
   clearEffect(event.source, EffectGroups.all);
 });
 
-const SWEET_BERRY_CHOCOLATE = new FoodItemBuilder("hy:sweet_berry_chocolate", [
+const SWEET_BERRY_CHOCOLATE = new FoodItemBuilder("hiddendelight:sweet_berry_chocolate", [
   { effectType: "instant_health", duration: 1, amplifier: 1 },
 ]);
 
 const AMETHYST_CHOCOLATE = new FoodItemBuilder(
-  "hy:amethyst_chocolate",
+  "hiddendelight:amethyst_chocolate",
   [],
   (event) => {
     event.source.addLevels(2);
   }
 );
 
-const MARSHMALLOW = new FoodItemBuilder("hy:marshmallow", [], (event) => {
+const MARSHMALLOW = new FoodItemBuilder("hiddendelight:marshmallow", [], (event) => {
   withPercentChance({
     chance: 0.5,
     event: () => {
@@ -50,25 +50,25 @@ const MARSHMALLOW = new FoodItemBuilder("hy:marshmallow", [], (event) => {
 });
 
 const SWEET_BERRY_MARSHMALLOW = new FoodItemBuilder(
-  "hy:sweet_berry_marshmallow",
+  "hiddendelight:sweet_berry_marshmallow",
   [{ effectType: "instant_health", duration: 1 }]
 );
 
 const AMETHYST_MARSHMALLOW = new FoodItemBuilder(
-  "hy:amethyst_marshmallow",
+  "hiddendelight:amethyst_marshmallow",
   [],
   (event) => {
     event.source.addLevels(3);
   }
 );
 
-const COPPER_APPLE = new FoodItemBuilder("hy:copper_apple", [
+const COPPER_APPLE = new FoodItemBuilder("hiddendelight:copper_apple", [
   { effectType: "absorption", duration: 600 },
   { effectType: "fire_resistance", duration: 200 },
 ]);
 
 const ENCHANTED_COPPER_APPLE = new FoodItemBuilder(
-  "hy:enchanted_copper_apple",
+  "hiddendelight:enchanted_copper_apple",
   [
     { effectType: "absorption", duration: 1200 },
     { effectType: "fire_resistance", duration: 1200 },
@@ -77,12 +77,12 @@ const ENCHANTED_COPPER_APPLE = new FoodItemBuilder(
 );
 
 const CHOCOLATE_POPSICLE = new FoodItemBuilder(
-  "hy:chocolate_popsicle",
+  "hiddendelight:chocolate_popsicle",
   [],
   (event) => {
     event.source.addTag("hy:immune_desert_debuff");
     event.source.onScreenDisplay.setActionBar({
-      translate: "hy.message.immune_desert_debuff",
+      translate: "hiddendelight.message.immune_desert_debuff",
     });
     system.runTimeout(() => {
       if (event.source.isValid())
@@ -93,9 +93,9 @@ const CHOCOLATE_POPSICLE = new FoodItemBuilder(
 
 QuestManager.setNameSpace("hy-q");
 const QUEST_BOOK = new QuestBookBuilder(
-  "hy:ancient_recipe",
-  { translate: "hy.quest.interlude_food.title" },
-  { translate: "hy.quest.interlude.body" },
+  "hiddendelight:ancient_recipe",
+  { translate: "hiddendelight.quest.interlude_food.title" },
+  { translate: "hiddendelight.quest.interlude.body" },
   [
     quests.WHEAT,
     quests.MELON_SLICE,
@@ -116,22 +116,22 @@ const QUEST_BOOK = new QuestBookBuilder(
 world.afterEvents.playerSpawn.subscribe((event) => {
   if (!event.player.hasTag("hy.get_ancient_recipe")) {
     event.player.addTag("hy.get_ancient_recipe");
-    giveItem(event.player, new ItemStack("hy:ancient_recipe"));
+    giveItem(event.player, new ItemStack("hiddendelight:ancient_recipe"));
   }
 });
 world.afterEvents.itemCompleteUse.subscribe((event) => {
   const [PLAYER, ITEM] = [event.source, event.itemStack];
   /**
-   * @tag `hy:copper_foods` 标记一个物品为铜食物，并统计其食用次数
+   * @tag `hiddendelight:copper_foods` 标记一个物品为铜食物，并统计其食用次数
    * 铜食物食用12次后会中毒
    */
-  if (ITEM.hasTag("hy:copper_foods")) {
-    let eatFrequency = PLAYER.getDynamicProperty("hy:copper_foods") as number;
-    if (!eatFrequency) PLAYER.setDynamicProperty("hy:copper_foods", 0);
-    PLAYER.setDynamicProperty("hy:copper_foods", eatFrequency++);
+  if (ITEM.hasTag("hiddendelight:copper_foods")) {
+    let eatFrequency = PLAYER.getDynamicProperty("hiddendelight:copper_foods") as number;
+    if (!eatFrequency) PLAYER.setDynamicProperty("hiddendelight:copper_foods", 0);
+    PLAYER.setDynamicProperty("hiddendelight:copper_foods", eatFrequency++);
     if (eatFrequency > 12) {
       PLAYER.addEffect("poison", 100);
-      PLAYER.setDynamicProperty("hy:copper_foods", 0);
+      PLAYER.setDynamicProperty("hiddendelight:copper_foods", 0);
     }
   }
 });

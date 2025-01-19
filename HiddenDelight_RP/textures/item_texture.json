@@ -1,0 +1,76 @@
+{
+  "resource_pack_name": "舌尖上的《隐藏之年²》",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "hiddendelight.copper_apple": {
+      "textures": "textures/items/copper_apple"
+    },
+    "hiddendelight.copper_bread": {
+      "textures": "textures/items/copper_bread"
+    },
+    "hiddendelight.copper_carrot": {
+      "textures": "textures/items/copper_carrot"
+    },
+    "hiddendelight.copper_hodgepodge": {
+      "textures": "textures/items/copper_hodgepodge"
+    },
+    "hiddendelight.copper_kelp": {
+      "textures": "textures/items/copper_kelp"
+    },
+    "hiddendelight.copper_melon_slice": {
+      "textures": "textures/items/copper_melon_slice"
+    },
+    "hiddendelight.copper_potato": {
+      "textures": "textures/items/copper_potato"
+    },
+    "mc.potion": {
+      "textures": "textures/items/potion_bottle_drinkable"
+    },
+    "hiddendelight.honey_candy": {
+      "textures": "textures/items/honey_candy"
+    },
+    "hiddendelight.chocolate_paste": {
+      "textures": "textures/items/chocolate_paste"
+    },
+    "hiddendelight.chocolate_bar": {
+      "textures": "textures/items/chocolate_bar"
+    },
+    "hiddendelight.chocolate": {
+      "textures": "textures/items/chocolate"
+    },
+    "hiddendelight.milk_chocolate": {
+      "textures": "textures/items/milk_chocolate"
+    },
+    "hiddendelight.sweet_berry_chocolate": {
+      "textures": "textures/items/sweet_berry_chocolate"
+    },
+    "hiddendelight.amethyst_chocolate": {
+      "textures": "textures/items/amethyst_chocolate"
+    },
+    "hiddendelight.marshallow": {
+      "textures": "textures/items/marshallow"
+    },
+    "hiddendelight.sweet_berry_marshallow": {
+      "textures": "textures/items/sweet_berry_marshallow"
+    },
+    "hiddendelight.amethyst_marshallow": {
+      "textures": "textures/items/amethyst_marshallow"
+    },
+    "hiddendelight.ancient_recipe": {
+      "textures": "textures/items/ancient_recipe"
+    },
+    "hiddendelight.chocolate_popsicle ": {
+      "textures": "textures/items/chocolate_popsicle"
+    },
+    "hiddendelight.camel_meat ": {
+      "textures": "textures/items/camel_meat"
+    },
+    "hiddendelight.cooked_camel_meat ": {
+      "textures": "textures/items/cooked_camel_meat"
+    },
+    "hiddendelight.sand_fish_wrap": {
+      "textures": "textures/items/sand_fish_wrap"
+    }
+  }
+}
+
