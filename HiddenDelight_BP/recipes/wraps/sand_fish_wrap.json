@@ -19,6 +19,20 @@
         "item": "hy:sand_fish"
       }
     ],
+    "unlock": [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "tag": "farmersdelight:is_onion"
+      },
+      {
+        "tag": "farmersdelight:is_cabbage"
+      },
+      {
+        "item": "hy:sand_fish"
+      }
+    ],
     "result": {
       "item": "hiddendelight:sand_fish_wrap"
     }
