@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hiddendelight_stuffed_copper_potato_tag_tag"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "hiddendelight:copper_potato"
+      },
+      {
+        "tag": "farmersdelight:is_cooked_beef"
+      },
+      {
+        "tag": "farmersdelight:is_milk"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "hiddendelight:copper_potato"
+      },
+      {
+        "tag": "farmersdelight:is_cooked_beef"
+      },
+      {
+        "tag": "farmersdelight:is_milk"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:stuffed_copper_potato"
+    }
+  }
+}
