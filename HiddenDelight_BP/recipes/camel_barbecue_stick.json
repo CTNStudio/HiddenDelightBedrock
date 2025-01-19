@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hiddendelight:cooked_camel_meat"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "tag": "farmersdelight:is_onion"
+      },
+      {
+        "tag": "farmersdelight:is_tomato"
+      },
+      {
+        "item": "hiddendelight:cooked_camel_meat"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "unlock": [
+      {
+        "tag": "farmersdelight:is_onion"
+      },
+      {
+        "tag": "farmersdelight:is_tomato"
+      },
+      {
+        "item": "hiddendelight:cooked_camel_meat"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:camel_barbecue_stick"
+    }
+  }
+}
