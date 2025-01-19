@@ -1,2 +1,2 @@
 scriptevent farmersdelight:cutting_board_recipe hy:sand_fish
-scriptevent farmersdelight:cooking_pot_recipe {"identifer":"hiddendelight:sand_bone_soup","tags":["cooking_pot"],"container":{"item":"minecraft:bowl"},"priority":0,"time":200,"ingredients":[{"item":"minecraft:red_mushroom"},{"item":"hy:sand_bone"}],"result":{"item":"sand_bone_broth"}}
+scriptevent farmersdelight:cooking_pot_recipe {"identifer":"hiddendelight:sand_bone_soup","tags":["cooking_pot"],"container":{"item":"minecraft:bowl"},"priority":0,"time":200,"ingredients":[{"item":"minecraft:red_mushroom"},{"item":"hy:sand_bone"}],"result":{"item":"hiddendelight:sand_bone_broth"}}
