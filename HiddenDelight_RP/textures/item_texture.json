@@ -59,19 +59,19 @@
     "hiddendelight.ancient_recipe": {
       "textures": "textures/items/ancient_recipe"
     },
-    "hiddendelight.chocolate_popsicle ": {
+    "hiddendelight.chocolate_popsicle": {
       "textures": "textures/items/chocolate_popsicle"
     },
-    "hiddendelight.amethyst_popsicle ": {
+    "hiddendelight.amethyst_popsicle": {
       "textures": "textures/items/amethyst_popsicle"
     },
-    "hiddendelight.sweet_berry_popsicle ": {
+    "hiddendelight.sweet_berry_popsicle": {
       "textures": "textures/items/sweet_berry_popsicle"
     },
-    "hiddendelight.camel_meat ": {
+    "hiddendelight.camel_meat": {
       "textures": "textures/items/camel_meat"
     },
-    "hiddendelight.cooked_camel_meat ": {
+    "hiddendelight.cooked_camel_meat": {
       "textures": "textures/items/cooked_camel_meat"
     },
     "hiddendelight.sand_fish_wrap": {
@@ -100,6 +100,15 @@
     },
     "hiddendelight.amethyst_cookie": {
       "textures": "textures/items/amethyst_cookie"
+    },
+    "hiddendelight.camel_stew": {
+      "textures": "textures/items/camel_stew"
+    },
+    "hiddendelight.camel_soup": {
+      "textures": "textures/items/camel_soup"
+    },
+    "hiddendelight.camel_barbecue_stick": {
+      "textures": "textures/items/camel_barbecue_stick"
     }
   }
 }
