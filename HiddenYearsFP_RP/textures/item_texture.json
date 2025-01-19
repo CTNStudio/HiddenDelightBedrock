@@ -60,7 +60,13 @@
       "textures": "textures/items/ancient_recipe"
     },
     "hy.chocolate_popsicle ": {
-      "textures": "textures/items/chocolate_popsicle "
+      "textures": "textures/items/chocolate_popsicle"
+    },
+    "hy.camel_meat ": {
+      "textures": "textures/items/camel_meat"
+    },
+    "hy.cooked_camel_meat ": {
+      "textures": "textures/items/cooked_camel_meat"
     }
   }
 }
