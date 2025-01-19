@@ -97,6 +97,9 @@
     },
     "hiddendelight.sand_bone_broth": {
       "textures": "textures/items/sand_bone_broth"
+    },
+    "hiddendelight.amethyst_cookie": {
+      "textures": "textures/items/amethyst_cookie"
     }
   }
 }
