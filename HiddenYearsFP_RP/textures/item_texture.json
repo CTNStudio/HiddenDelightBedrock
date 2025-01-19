@@ -67,6 +67,9 @@
     },
     "hy.cooked_camel_meat ": {
       "textures": "textures/items/cooked_camel_meat"
+    },
+    "hy.sand_fish_wrap": {
+      "textures": "textures/items/sand_fish_wrap"
     }
   }
 }
