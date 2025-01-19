@@ -63,3 +63,14 @@ export function copperFoodCounter() {
     }
   });
 }
+
+/**
+ * 注册农夫乐事配方
+ */
+export function registyRecipes() {
+  world.afterEvents.worldInitialize.subscribe((event) => {
+    world
+      .getDimension("overworld")
+      .runCommandAsync("function hiddendelight/registiesRecipes");
+  });
+}
