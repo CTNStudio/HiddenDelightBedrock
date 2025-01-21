@@ -1,0 +1,11 @@
+{
+  "format_version": [1, 20, 0],
+  "hiddendelight:chocolate_block": {
+    "sound": "metal",
+    "textures": "hy.chocolate_block"
+  },
+  "hiddendelight:chocolate_bricks": {
+    "sound": "metal",
+    "textures": "hy.chocolate_bricks"
+  }
+}
