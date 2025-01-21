@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cutting_board_recipe hy:sand_fish
+scoreboard objectives remove farmersdelight_hiddendelight_cutting_board

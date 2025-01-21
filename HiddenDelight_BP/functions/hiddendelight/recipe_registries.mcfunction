@@ -1,0 +1,2 @@
+scoreboard objectives add farmersdelight_hiddendelight_cooking_pot dummy
+scoreboard objectives add farmersdelight_hiddendelight_cutting_board dummy

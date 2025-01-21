@@ -1,23 +1,29 @@
 {
-  "format_version": "1.21.20",
-  "minecraft:block": {
-    "description": {
-      "identifier": "hiddendelight:chocolate_block",
-      "menu_category": {
-        "category": "construction"
-      }
-    },
-    "components": {
-      "minecraft:loot": "loot_tables/blocks/ingot_blocks/chocolate_block.json",
-      "minecraft:display_name": "hiddendelight.block.chocolate_block",
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 1.9
-      },
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 6.0
-      },
-      "minecraft:map_color": "#A7A7A7",
-      "tag:metal": {}
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hiddendelight:chocolate_block",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:loot": "loot_tables/blocks/ingot_blocks/chocolate_block.json",
+            "minecraft:display_name": "hiddendelight.block.chocolate_block",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.9
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hiddendelight.chocolate_block"
+                }
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 6.0
+            },
+            "minecraft:map_color": "#A7A7A7",
+            "minecraft:geometry": "geometry.block",
+            "tag:metal": {}
+        }
     }
-  }
 }

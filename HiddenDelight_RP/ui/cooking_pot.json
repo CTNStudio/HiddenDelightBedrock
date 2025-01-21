@@ -1,0 +1,156 @@
+{
+    "hiddendelight_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "camel_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/camel_meat",
+                                "$cell1": "textures/items/carrot",
+                                "$cell2": "textures/items/onion",
+                                "$cell3": "textures/items/cabbage",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/camel_soup"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "camel_stew@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/camel_meat",
+                                "$cell1": "textures/items/carrot",
+                                "$cell2": "textures/items/tomato",
+                                "$cell3": "textures/items/potato",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/camel_stew"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "hiddendelight_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.hiddendelight_recipe_part_0"
+    },
+    "hiddendelight_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "sand_bone_broth@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/blocks/mushroom_red",
+                                "$cell1": "textures/items/sand_bone",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/sand_bone_broth"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "copper_rice@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/copper_potato",
+                                "$cell1": "textures/items/rice",
+                                "$cell2": "textures/items/carrot",
+                                "$result": "textures/items/copper_rice"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "hiddendelight_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.hiddendelight_recipe_part_1"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "hiddendelight_recipe_grid_0@cooking_pot.hiddendelight_recipe_part_0": {}
+                    },
+                    {
+                        "hiddendelight_recipe_grid_1@cooking_pot.hiddendelight_recipe_grid_1": {}
+                    }
+                ]
+            }
+        ]
+    }
+}
