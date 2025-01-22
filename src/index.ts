@@ -9,6 +9,7 @@ import {
 import { QuestBookBuilder, QuestManager } from "@grindstone/quest-kit";
 import * as quests from "./quest";
 import { copperFoodCounter, giveAncientRecipe, onEatPopsicle, registyRecipes } from "./utils";
+import { registryLoot } from "./loot";
 
 const HONEY_CANDY = new FoodItemBuilder("hiddendelight:honey_candy", [
   { effectType: "saturation", duration: 600 },
@@ -139,5 +140,6 @@ CHOCOLATE_POPSICLE.build();
 SWEET_BERRY_POPSICLE.build();
 AMETHYST_POPSICLE.build();
 registyRecipes();
+registryLoot();
 giveAncientRecipe();
 copperFoodCounter();
