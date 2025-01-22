@@ -1,6 +1,6 @@
 {
   "name": "hy2-food-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Minecraft addon",
   "scripts": {
     "build": "node build/script.mjs"
