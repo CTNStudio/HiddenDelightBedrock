@@ -1,10 +1,11 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "hiddendelight:ancient_recipe",
       "menu_category": {
-        "category": "equipment"
+        "category": "equipment",
+        "group": "hiddenyear:itemGroup.name.hiddenyear"
       }
     },
     "components": {

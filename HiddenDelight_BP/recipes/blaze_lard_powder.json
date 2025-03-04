@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hiddendelight:blaze_lard_powder"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "hiddendelight:lard"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "hiddendelight:lard"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:blaze_lard_powder"
+    }
+  }
+}

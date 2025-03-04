@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hiddendelight:blaze_lard_powder",
+            "menu_category": {
+                "group": "hiddenyear:itemGroup.name.hiddenyear",
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": "hiddendelight.blaze_lard_powder",
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:can_cook"
+                ]
+            }
+        }
+    }
+}

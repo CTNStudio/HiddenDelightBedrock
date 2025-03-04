@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "hiddendelight:lard"
+    },
+
+    "unlock": [
+      {
+        "item": "hiddendelight:fat_meat"
+      }
+    ],
+    "tags": ["furnace", "smoker"],
+    "input": "hiddendelight:fat_meat",
+    "output": "hiddendelight:lard"
+  }
+}

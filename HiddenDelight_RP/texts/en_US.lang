@@ -1,5 +1,5 @@
 pack.name=Hidden Delight
-pack.description=Time to have something strange! | Release 2.0.0
+pack.description=Time to have something strange! | Release 2.1.0. Please place it above Farmer's Delight and Hidden Year² to load.
 
 
 gui.check=Submit Quest
@@ -98,3 +98,19 @@ quest.level=%1 XP Level
 quest.reward.none=No Reward
 quest.condition.none=No Condition
 quest.tips=§4Tips§r：
+
+item.hiddendelight:dry_rot_meat=Dry Rot Meat
+item.hiddendelight:fat_meat=Fat Meat
+item.hiddendelight:lard=Lard
+item.hiddendelight:blaze_lard_powder=Blaze Lard Powder
+item.hiddendelight:baked_dry_rot_meat=Baked Dry Rot Meat
+item.hiddendelight:dried_dry_rot_meat=Dried Dry Rot Meat
+item.hiddendelight:honey_dried_dry_rot_meat=Honey Dried Dry Rot Meat
+item.hiddendelight:dry_rot_bacon=Dry Rot Bacon
+item.hiddendelight:dry_rot_bacon_sandewich=Dry Rot Bacon Sandwich
+item.hiddendelight:dry_rot_bacon_and_egg=Dry Rot Bacon And Egg
+item.hiddendelight:dry_rot_meat_wrap=Dry Rot Meat Wrap
+item.hiddendelight:blaze_lard_rotten_flesh=Blaze Lard Rotten
+item.hiddendelight:spicy_chicken_wrap=Spicy Chicken Wrap
+
+hiddenyear:itemGroup.name.hiddenyear=Hidden Delight

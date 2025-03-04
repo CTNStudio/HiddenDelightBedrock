@@ -136,6 +136,50 @@
             1,
             1
         ],
+        "hiddendelight_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "spicy_chicken_wrap@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/blaze_lard_powder",
+                                "$cell1": "textures/items/chicken_cuts",
+                                "$cell2": "textures/items/bread",
+                                "$cell3": "textures/items/is_cabbage",
+                                "$cell4": "textures/items/onion",
+                                "$result": "textures/items/spicy_chicken_wrap"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "hiddendelight_recipe_grid_2": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
         "grid_item_template": "cooking_pot.hiddendelight_recipe_part_1"
     },
     "recipe_grid_panel": {
@@ -149,6 +193,9 @@
                     },
                     {
                         "hiddendelight_recipe_grid_1@cooking_pot.hiddendelight_recipe_grid_1": {}
+                    },
+                    {
+                        "hiddendelight_recipe_grid_2@cooking_pot.hiddendelight_recipe_grid_2": {}
                     }
                 ]
             }

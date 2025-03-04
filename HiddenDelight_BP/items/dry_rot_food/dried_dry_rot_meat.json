@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hiddendelight:dried_dry_rot_meat",
+            "menu_category": {
+                "group": "hiddenyear:itemGroup.name.hiddenyear",
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": "hiddendelight.dried_dry_rot_meat",
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.5
+            },
+            "minecraft:food": {
+                "nutrition": 5,
+                "saturation_modifier": 0.6
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:can_cut.tag.farmersdelight:is_knife"
+                ]
+            }
+        }
+    }
+}

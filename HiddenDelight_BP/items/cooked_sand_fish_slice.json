@@ -1,10 +1,10 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "hiddendelight:cooked_sand_fish_slice",
       "menu_category": {
-        "group": "itemGroup.name.miscFood",
+        "group": "hiddenyear:itemGroup.name.hiddenyear",
         "category": "equipment"
       }
     },

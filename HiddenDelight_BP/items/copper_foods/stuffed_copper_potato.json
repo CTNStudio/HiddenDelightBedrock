@@ -1,11 +1,11 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "hiddendelight:stuffed_copper_potato",
       "menu_category": {
-        "group": "itemGroup.name.crop",
-        "category": "nature"
+        "group": "hiddenyear:itemGroup.name.hiddenyear",
+        "category": "equipment"
       }
     },
     "components": {

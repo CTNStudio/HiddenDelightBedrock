@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "hiddendelight:dry_rot_bacon_and_eggs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "hiddendelight:dry_rot_bacon"
+            },
+            {
+                "tag": "farmersdelight:is_cooked_egg"
+            },
+            {
+                "tag": "farmersdelight:is_cooked_egg"
+            },
+            {
+                "item": "hiddendelight:dry_rot_bacon"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": {
+            "item": "hiddendelight:dry_rot_bacon_and_eggs"
+        }
+    }
+}
