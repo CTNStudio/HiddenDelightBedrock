@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "hiddendelight:honey_dried_dry_rot_meat"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "hiddendelight:dried_dry_rot_meat"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "hiddendelight:dried_dry_rot_meat"
+      }
+    ],
+    "result": {
+      "item": "hiddendelight:honey_dried_dry_rot_meat"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "hiddenyear.ancient_recipe",
+                            "name": "hiddenyear:itemGroup.name.hiddenyear"
+                        },
+                        "items": []
+                    }
+                ]
+            }
+        ]
+    }
+}

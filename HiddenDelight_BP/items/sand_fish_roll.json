@@ -1,10 +1,10 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.21.60",
   "minecraft:item": {
     "description": {
       "identifier": "hiddendelight:sand_fish_roll",
       "menu_category": {
-        "group": "itemGroup.name.miscFood",
+        "group": "hiddenyear:itemGroup.name.hiddenyear",
         "category": "equipment"
       }
     },

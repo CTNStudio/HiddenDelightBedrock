@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "hiddendelight:dried_dry_rot_meat"
+    },
+
+    "unlock": [
+      {
+        "item": "hiddendelight:sand_fish_slice"
+      }
+    ],
+    "tags": ["smoker"],
+    "input": "hiddendelight:dry_rot_meat",
+    "output": "hiddendelight:dried_dry_rot_meat"
+  }
+}

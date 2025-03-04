@@ -9,6 +9,7 @@ import {
 import { QuestBookBuilder, QuestManager } from "@grindstone/quest-kit";
 import * as quests from "./quest";
 import { copperFoodCounter, giveAncientRecipe, onEatPopsicle, registyRecipes } from "./utils";
+import { registryLoot } from "./loot";
 
 const HONEY_CANDY = new FoodItemBuilder("hiddendelight:honey_candy", [
   { effectType: "saturation", duration: 600 },
@@ -101,6 +102,36 @@ const SWEET_BERRY_POPSICLE = new FoodItemBuilder(
   }
 );
 
+const DRY_ROT_MEAT = new FoodItemBuilder("hiddendelight:dry_rot_meat", [
+  { effectType: "poison", duration: 15 },
+]);
+
+const BAKED_DRY_ROT_MEAT = new FoodItemBuilder("hiddendelight:baked_dry_rot_meat", [], (event) => {
+  withPercentChance({
+    chance: 0.05,
+    event: () => {
+      event.source.addEffect("poison", 5);
+    },
+  });
+});
+
+const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:baked_dry_rot_meat", [], (event) => {
+  withPercentChance({
+    chance: 0.25,
+    event: () => {
+      event.source.addEffect("poison", 5);
+    },
+  });
+});
+
+const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:dry_rot_meatblaze_lard_rotten_flesh", [
+  { effectType: "fire_resistance", duration: 15 },
+]);
+
+const SPICY_CHICKEN_WRAP = new FoodItemBuilder("hiddendelight:spicy_chicken_wrap", [
+  { effectType: "fire_resistance", duration: 15 },
+]);
+
 QuestManager.setNameSpace("hy-q");
 const QUEST_BOOK = new QuestBookBuilder(
   "hiddendelight:ancient_recipe",
@@ -139,5 +170,6 @@ CHOCOLATE_POPSICLE.build();
 SWEET_BERRY_POPSICLE.build();
 AMETHYST_POPSICLE.build();
 registyRecipes();
+registryLoot();
 giveAncientRecipe();
 copperFoodCounter();

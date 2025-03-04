@@ -1,5 +1,5 @@
 pack.name=隱藏樂事
-pack.description=是时候整点奇怪的了！ | 正式版 2.0.0
+pack.description=是时候整点奇怪的了！ | 正式版 2.1.0。請置於農夫樂事和隱藏之年²上方加載。
 
 gui.check=提交任務
 gui.about=關於
@@ -63,6 +63,22 @@ hiddendelight.block.chocolate_block=巧克力塊
 hiddendelight.block.chocolate_bricks=巧克力磚
 hiddendelight.item.enchanted_copper_apple=附魔銅蘋果
 hiddendelight.item.copper_apple=銅蘋果
+
+item.hiddendelight:dry_rot_meat=幹腐之肉
+item.hiddendelight:fat_meat=肥肉
+item.hiddendelight:lard=豬油
+item.hiddendelight:blaze_lard_powder=烈焰油粉
+item.hiddendelight:baked_dry_rot_meat=烤幹腐肉
+item.hiddendelight:dried_dry_rot_meat=幹腐肉脯
+item.hiddendelight:honey_dried_dry_rot_meat=蜜汁幹腐肉脯
+item.hiddendelight:dry_rot_bacon=幹腐培根
+item.hiddendelight:dry_rot_bacon_sandewich=幹腐培根三明治
+item.hiddendelight:dry_rot_bacon_and_egg=幹腐培根雞蛋
+item.hiddendelight:dry_rot_meat_wrap=幹腐肉卷餅
+item.hiddendelight:blaze_lard_rotten_flesh=烈焰油腐肉
+item.hiddendelight:spicy_chicken_wrap=火辣雞肉卷
+
+hiddenyear:itemGroup.name.hiddenyear=隱藏樂事
 
 hiddendelight.quest.chapter1.title=§d[序章]§r 踏上旅途
 hiddendelight.quest.chapter2.title=§d[第一章]§r 染上鮮血的寶石

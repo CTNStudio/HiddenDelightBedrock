@@ -1,5 +1,5 @@
 pack.name=隐藏乐事
-pack.description=是时候整点奇怪的了！ | 正式版 2.0.0
+pack.description=是时候整点奇怪的了！ | 正式版 2.1.0。请置于农夫乐事和隐藏之年²上方加载。
 
 gui.check=提交任务
 gui.about=关于
@@ -80,6 +80,22 @@ hiddendelight.item.cooked_sand_fish_slice=熟砂鱼片
 hiddendelight.item.sand_fish_roll=砂鱼寿司
 hiddendelight.item.sand_bone_broth=砂骨汤
 hiddendelight.item.amethyst_cookie=紫水晶曲奇
+
+item.hiddendelight:dry_rot_meat=干腐之肉
+item.hiddendelight:fat_meat=肥肉
+item.hiddendelight:lard=猪油
+item.hiddendelight:blaze_lard_powder=烈焰油粉
+item.hiddendelight:baked_dry_rot_meat=烤干腐肉
+item.hiddendelight:dried_dry_rot_meat=干腐肉脯
+item.hiddendelight:honey_dried_dry_rot_meat=蜜汁干腐肉脯
+item.hiddendelight:dry_rot_bacon=干腐培根
+item.hiddendelight:dry_rot_bacon_sandewich=干腐培根三明治
+item.hiddendelight:dry_rot_bacon_and_egg=干腐培根鸡蛋
+item.hiddendelight:dry_rot_meat_wrap=干腐肉卷饼
+item.hiddendelight:blaze_lard_rotten_flesh=烈焰油腐肉
+item.hiddendelight:spicy_chicken_wrap=火辣鸡肉卷
+
+hiddenyear:itemGroup.name.hiddenyear=隐藏乐事
 
 hiddendelight.quest.interlude_food.title=古遗食谱·尝遍世间百味
 hiddendelight.quest.interlude.body=探索舌尖上的「隐藏之年」
