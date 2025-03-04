@@ -136,7 +136,9 @@
             1,
             1
         ],
-        "hiddendelight_recipe_part_1": {
+        "grid_item_template": "cooking_pot.hiddendelight_recipe_part_0"
+    },
+    "hiddendelight_recipe_part_2": {
         "type": "panel",
         "size": [
             150,
@@ -160,7 +162,7 @@
                                 "$cell0": "textures/items/blaze_lard_powder",
                                 "$cell1": "textures/items/chicken_cuts",
                                 "$cell2": "textures/items/bread",
-                                "$cell3": "textures/items/is_cabbage",
+                                "$cell3": "textures/items/cabbage",
                                 "$cell4": "textures/items/onion",
                                 "$result": "textures/items/spicy_chicken_wrap"
                             }
@@ -180,7 +182,7 @@
             1,
             1
         ],
-        "grid_item_template": "cooking_pot.hiddendelight_recipe_part_1"
+        "grid_item_template": "cooking_pot.hiddendelight_recipe_part_2"
     },
     "recipe_grid_panel": {
         "modifications": [
