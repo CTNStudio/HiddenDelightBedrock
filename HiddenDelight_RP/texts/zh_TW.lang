@@ -78,7 +78,7 @@ item.hiddendelight:dry_rot_meat_wrap=幹腐肉卷餅
 item.hiddendelight:blaze_lard_rotten_flesh=烈焰油腐肉
 item.hiddendelight:spicy_chicken_wrap=火辣雞肉卷
 
-hiddenyear:itemGroup.name.hiddenyear=隱藏樂事
+hiddendelight:itemGroup.name.hiddendelight=隱藏樂事
 
 hiddendelight.quest.chapter1.title=§d[序章]§r 踏上旅途
 hiddendelight.quest.chapter2.title=§d[第一章]§r 染上鮮血的寶石
