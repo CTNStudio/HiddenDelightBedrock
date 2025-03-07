@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hiddendelight:enchanted_copper_apple",
       "menu_category": {
-        "group": "hiddenyear:itemGroup.name.hiddenyear",
+        "group": "hiddendelight:itemGroup.name.hiddendelight",
         "category": "equipment"
       }
     },

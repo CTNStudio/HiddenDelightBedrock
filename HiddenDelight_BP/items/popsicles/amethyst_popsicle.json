@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hiddendelight:amethyst_popsicle",
       "menu_category": {
-        "group": "hiddenyear:itemGroup.name.hiddenyear",
+        "group": "hiddendelight:itemGroup.name.hiddendelight",
         "category": "equipment"
       }
     },

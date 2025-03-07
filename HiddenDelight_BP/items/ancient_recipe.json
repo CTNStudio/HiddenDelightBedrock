@@ -5,7 +5,7 @@
       "identifier": "hiddendelight:ancient_recipe",
       "menu_category": {
         "category": "equipment",
-        "group": "hiddenyear:itemGroup.name.hiddenyear"
+        "group": "hiddendelight:itemGroup.name.hiddendelight"
       }
     },
     "components": {

@@ -4,12 +4,12 @@
     "description": {
       "identifier": "hiddendelight:chocolate_popsicle",
       "menu_category": {
-        "group": "hiddenyear:itemGroup.name.hiddenyear",
+        "group": "hiddendelight:itemGroup.name.hiddendelight",
         "category": "equipment"
       }
     },
     "components": {
-      "minecraft:icon": "hiddendelight.chocolate_popsicle ",
+      "minecraft:icon": "hiddendelight.chocolate_popsicle",
       "minecraft:display_name": {
         "value": "hiddendelight.item.chocolate_popsicle"
       },

@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "hiddendelight:dry_rot_bacon_and_eggs"
+            "identifier": "hiddendelight:dry_rot_bacon_and_egg"
         },
         "tags": [
             "crafting_table"
@@ -25,7 +25,7 @@
             }
         ],
         "result": {
-            "item": "hiddendelight:dry_rot_bacon_and_eggs"
+            "item": "hiddendelight:dry_rot_bacon_and_egg"
         }
     }
 }

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hiddendelight:sand_bone_broth",
       "menu_category": {
-        "group": "hiddenyear:itemGroup.name.hiddenyear",
+        "group": "hiddendelight:itemGroup.name.hiddendelight",
         "category": "equipment"
       }
     },
