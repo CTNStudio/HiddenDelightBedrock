@@ -115,15 +115,6 @@ const BAKED_DRY_ROT_MEAT = new FoodItemBuilder("hiddendelight:baked_dry_rot_meat
   });
 });
 
-const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:baked_dry_rot_meat", [], (event) => {
-  withPercentChance({
-    chance: 0.25,
-    event: () => {
-      event.source.addEffect("poison", 5);
-    },
-  });
-});
-
 const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:dry_rot_meatblaze_lard_rotten_flesh", [
   { effectType: "fire_resistance", duration: 15 },
 ]);
