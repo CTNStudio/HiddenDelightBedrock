@@ -103,24 +103,24 @@ const SWEET_BERRY_POPSICLE = new FoodItemBuilder(
 );
 
 const DRY_ROT_MEAT = new FoodItemBuilder("hiddendelight:dry_rot_meat", [
-  { effectType: "poison", duration: 15 },
+  { effectType: "poison", duration: 300 },
 ]);
 
 const BAKED_DRY_ROT_MEAT = new FoodItemBuilder("hiddendelight:baked_dry_rot_meat", [], (event) => {
   withPercentChance({
     chance: 0.05,
     event: () => {
-      event.source.addEffect("poison", 5);
+      event.source.addEffect("poison",300);
     },
   });
 });
 
-const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:dry_rot_meatblaze_lard_rotten_flesh", [
-  { effectType: "fire_resistance", duration: 15 },
+const BLAZE_LARD_ROTTEN_FLESS = new FoodItemBuilder("hiddendelight:blaze_lard_rotten_flesh", [
+  { effectType: "fire_resistance", duration: 1200 },
 ]);
 
 const SPICY_CHICKEN_WRAP = new FoodItemBuilder("hiddendelight:spicy_chicken_wrap", [
-  { effectType: "fire_resistance", duration: 15 },
+  { effectType: "fire_resistance", duration: 1200 },
 ]);
 
 QuestManager.setNameSpace("hy-q");
@@ -160,6 +160,9 @@ QUEST_BOOK.build();
 CHOCOLATE_POPSICLE.build();
 SWEET_BERRY_POPSICLE.build();
 AMETHYST_POPSICLE.build();
+DRY_ROT_MEAT.build();
+BAKED_DRY_ROT_MEAT.build();
+BLAZE_LARD_ROTTEN_FLESS.build();
 registyRecipes();
 registryLoot();
 giveAncientRecipe();
