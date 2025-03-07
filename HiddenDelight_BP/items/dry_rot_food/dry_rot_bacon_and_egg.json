@@ -1,25 +1,25 @@
 {
-  "format_version": "1.21.60",
-  "minecraft:item": {
-    "description": {
-      "identifier": "hiddendelight:dry_rot_bacon_and_egg",
-      "menu_category": {
-        "group": "hiddenyear:itemGroup.name.hiddenyear",
-        "category": "equipment"
-      }
-    },
-    "components": {
-      "minecraft:icon": "hiddendelight.dry_rot_bacon_and_egg",
-      "minecraft:use_animation": "eat",
-      "minecraft:use_modifiers": {
-        "use_duration": 1.6,
-        "movement_modifier": 0.5
-      },
-      "minecraft:food": {
-        "nutrition": 12,
-        "saturation_modifier": 0.8,
-        "using_converts_to": "minecraft:bowl"
-      }
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hiddendelight:dry_rot_bacon_and_egg",
+            "menu_category": {
+                "group": "hiddendelight:itemGroup.name.hiddendelight",
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": "hiddendelight.dry_rot_bacon_and_egg",
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.5
+            },
+            "minecraft:food": {
+                "nutrition": 12,
+                "saturation_modifier": 0.8,
+                "using_converts_to": "minecraft:bowl"
+            }
+        }
     }
-  }
 }

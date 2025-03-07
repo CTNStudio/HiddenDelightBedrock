@@ -2,9 +2,9 @@
     "format_version": "1.21.60",
     "minecraft:item": {
         "description": {
-            "identifier": "hiddendelight:camel_meat",
+            "identifier": "hiddendelight:dry_rot_meat",
             "menu_category": {
-                "group": "hiddenyear:itemGroup.name.hiddenyear",
+                "group": "hiddendelight:itemGroup.name.hiddendelight",
                 "category": "equipment"
             }
         },

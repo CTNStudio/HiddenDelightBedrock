@@ -7,8 +7,8 @@
                 "groups": [
                     {
                         "group_identifier": {
-                            "icon": "hiddendelight.ancient_recipe",
-                            "name": "hiddenyear:itemGroup.name.hiddenyear"
+                            "icon": "hiddendelight:ancient_recipe",
+                            "name": "hiddendelight:itemGroup.name.hiddendelight"
                         },
                         "items": [
                             "hiddendelight:amethyst_cookie",
