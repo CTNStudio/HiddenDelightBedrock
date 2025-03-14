@@ -1,5 +1,5 @@
 pack.name=隱藏樂事
-pack.description=是时候整点奇怪的了！ | 正式版 2.1.0。請置於農夫樂事和隱藏之年²上方加載。
+pack.description=是时候整点奇怪的了！ | 正式版 2.1.1。請置於農夫樂事和隱藏之年²上方加載。
 
 gui.check=提交任務
 gui.about=關於
@@ -77,6 +77,7 @@ item.hiddendelight:dry_rot_bacon_and_egg=幹腐培根雞蛋
 item.hiddendelight:dry_rot_meat_wrap=幹腐肉卷餅
 item.hiddendelight:blaze_lard_rotten_flesh=烈焰油腐肉
 item.hiddendelight:spicy_chicken_wrap=火辣雞肉卷
+item.hiddendelight:special_hot_cocoa=特製熱可可
 
 hiddendelight:itemGroup.name.hiddendelight=隱藏樂事
 

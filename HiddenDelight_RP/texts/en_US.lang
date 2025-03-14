@@ -1,5 +1,5 @@
 pack.name=Hidden Delight
-pack.description=Time to have something strange! | Release 2.1.0. Please place it above Farmer's Delight and Hidden Year² to load.
+pack.description=Time to have something strange! | Release 2.1.1. Please place it above Farmer's Delight and Hidden Year² to load.
 
 
 gui.check=Submit Quest
@@ -112,5 +112,6 @@ item.hiddendelight:dry_rot_bacon_and_egg=Dry Rot Bacon And Egg
 item.hiddendelight:dry_rot_meat_wrap=Dry Rot Meat Wrap
 item.hiddendelight:blaze_lard_rotten_flesh=Blaze Lard Rotten
 item.hiddendelight:spicy_chicken_wrap=Spicy Chicken Wrap
+item.hiddendelight:special_hot_cocoa=Special Hot Cocoa
 
 hiddendelight:itemGroup.name.hiddendelight=Hidden Delight

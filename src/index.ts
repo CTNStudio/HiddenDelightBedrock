@@ -123,6 +123,11 @@ const SPICY_CHICKEN_WRAP = new FoodItemBuilder("hiddendelight:spicy_chicken_wrap
   { effectType: "fire_resistance", duration: 1200 },
 ]);
 
+const SPECIAL_HOT_COCOA = new FoodItemBuilder("hiddendelight:special_hot_cocoa", [
+  { effectType: "Regeneration", duration: 600 },
+  { effectType: "fire_resistance", duration: 200 },
+]);
+
 QuestManager.setNameSpace("hy-q");
 const QUEST_BOOK = new QuestBookBuilder(
   "hiddendelight:ancient_recipe",
@@ -163,6 +168,7 @@ AMETHYST_POPSICLE.build();
 DRY_ROT_MEAT.build();
 BAKED_DRY_ROT_MEAT.build();
 BLAZE_LARD_ROTTEN_FLESS.build();
+SPECIAL_HOT_COCOA.build();
 registyRecipes();
 registryLoot();
 giveAncientRecipe();

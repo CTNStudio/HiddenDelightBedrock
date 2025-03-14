@@ -169,6 +169,29 @@
                         }
                     ]
                 }
+            },
+            {
+                "special_hot_cocoa@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/chocolate_paste",
+                                "$cell1": "textures/items/potion_bottle_drinkable",
+                                "$cell2": "textures/items/magma_cream",
+                                "$result": "textures/items/special_hot_cocoa"
+                            }
+                        }
+                    ]
+                }
             }
         ]
     },

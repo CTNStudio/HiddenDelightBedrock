@@ -19,6 +19,11 @@
                 "nutrition": 3,
                 "can_always_eat": true,
                 "saturation_modifier": 0.6
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:can_cook"
+                ]
             }
         }
     }
