@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/sweet_berry_chocolate"
 			},
-			"identifier": "farmersdelight:stove_sweet_berry_chocolate"
+			"identifier": "hiddendelight:stove_sweet_berry_chocolate"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

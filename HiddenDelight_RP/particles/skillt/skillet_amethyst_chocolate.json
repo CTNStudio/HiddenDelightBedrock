@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/amethyst_chocolate"
 			},
-			"identifier": "farmersdelight:skillet_amethyst_chocolate"
+			"identifier": "hiddendelight:skillet_amethyst_chocolate"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

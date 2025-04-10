@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/sand_fish_slice"
 			},
-			"identifier": "farmersdelight:stove_sand_fish_slice"
+			"identifier": "hiddendelight:stove_sand_fish_slice"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

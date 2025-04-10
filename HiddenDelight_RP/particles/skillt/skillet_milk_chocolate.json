@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/milk_chocolate"
 			},
-			"identifier": "farmersdelight:skillet_milk_chocolate"
+			"identifier": "hiddendelight:skillet_milk_chocolate"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

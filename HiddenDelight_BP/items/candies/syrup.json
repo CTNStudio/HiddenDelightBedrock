@@ -10,7 +10,7 @@
     },
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:icon": "mc.potion",
+      "minecraft:icon": "hiddendelight.syrup",
       "minecraft:display_name": {
         "value": "hiddendelight.item.syrup"
       },

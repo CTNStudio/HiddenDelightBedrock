@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/dry_rot_meat"
 			},
-			"identifier": "farmersdelight:stove_dry_rot_meat"
+			"identifier": "hiddendelight:stove_dry_rot_meat"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

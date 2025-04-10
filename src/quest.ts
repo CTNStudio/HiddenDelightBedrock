@@ -20,7 +20,7 @@ export const WHEAT = new Quest(
     award: {
       item: {
         name: {
-          translate: "hiddendelight.item.amethyst_ingot",
+          translate: "hy.item.amethyst_ingot",
         },
         itemStack: new ItemStack("gold_ingot", 2),
       },

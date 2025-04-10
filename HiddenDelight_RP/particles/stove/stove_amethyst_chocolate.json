@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/amethyst_chocolate"
 			},
-			"identifier": "farmersdelight:stove_amethyst_chocolate"
+			"identifier": "hiddendelight:stove_amethyst_chocolate"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

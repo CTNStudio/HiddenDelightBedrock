@@ -1,192 +1,156 @@
 {
-  "resource_pack_name": "vanilla",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "hiddendelight.amethyst_chocolate": {
-      "textures": "textures/items/amethyst_chocolate"
-    },
-    "hiddendelight.amethyst_cookie": {
-      "textures": "textures/items/amethyst_cookie"
-    },
-    "hiddendelight.amethyst_marshallow": {
-      "textures": "textures/items/amethyst_marshallow"
-    },
-    "hiddendelight.amethyst_popsicle": {
-      "textures": "textures/items/amethyst_popsicle"
-    },
-    "hiddendelight.ancient_recipe": {
-      "textures": "textures/items/ancient_recipe"
-    },
-    "hiddendelight.blaze_lard_powder": {
-      "textures": "textures/items/blaze_lard_powder"
-    },
-    "hiddendelight.blaze_lard_rotten_flesh": {
-      "textures": "textures/items/blaze_lard_rotten_flesh"
-    },
-    "hiddendelight.camel_barbecue_stick": {
-      "textures": "textures/items/camel_barbecue_stick"
-    },
-    "hiddendelight.camel_meat": {
-      "textures": "textures/items/camel_meat"
-    },
-    "hiddendelight.camel_soup": {
-      "textures": "textures/items/camel_soup"
-    },
-    "hiddendelight.camel_stew": {
-      "textures": "textures/items/camel_stew"
-    },
-    "hiddendelight.chocolate": {
-      "textures": "textures/items/chocolate"
-    },
-    "hiddendelight.chocolate_bar": {
-      "textures": "textures/items/chocolate_bar"
-    },
-    "hiddendelight.chocolate_paste": {
-      "textures": "textures/items/chocolate_paste"
-    },
-    "hiddendelight.chocolate_popsicle": {
-      "textures": "textures/items/chocolate_popsicle"
-    },
-    "hiddendelight.cooked_camel_meat": {
-      "textures": "textures/items/cooked_camel_meat"
-    },
-    "hiddendelight.baked_dry_rot_meat": {
-      "textures": "textures/items/cooked_dry_rot_meat"
-    },
-    "hiddendelight.cooked_sand_fish_slice": {
-      "textures": "textures/items/cooked_sand_fish_slice"
-    },
-    "hiddendelight.copper_apple": {
-      "textures": "textures/items/copper_apple"
-    },
-    "hiddendelight.copper_bread": {
-      "textures": "textures/items/copper_bread"
-    },
-    "hiddendelight.copper_carrot": {
-      "textures": "textures/items/copper_carrot"
-    },
-    "hiddendelight.copper_hodgepodge": {
-      "textures": "textures/items/copper_hodgepodge"
-    },
-    "hiddendelight.copper_kelp": {
-      "textures": "textures/items/copper_kelp"
-    },
-    "hiddendelight.copper_melon_slice": {
-      "textures": "textures/items/copper_melon_slice"
-    },
-    "hiddendelight.copper_potato": {
-      "textures": "textures/items/copper_potato"
-    },
-    "hiddendelight.copper_rice": {
-      "textures": "textures/items/copper_rice"
-    },
-    "hiddendelight.dried_dry_rot_meat": {
-      "textures": "textures/items/dried_dry_rot_meat"
-    },
-    "hiddendelight.dry_rot_bacon": {
-      "textures": "textures/items/dry_rot_bacon"
-    },
-    "hiddendelight.dry_rot_bacon_and_egg": {
-      "textures": "textures/items/dry_rot_bacon_and_egg"
-    },
-    "hiddendelight.dry_rot_bacon_sandwich": {
-      "textures": "textures/items/dry_rot_bacon_sandwich"
-    },
-    "hiddendelight.dry_rot_meat": {
-      "textures": "textures/items/dry_rot_meat"
-    },
-    "hiddendelight.dry_rot_meat_wrap": {
-      "textures": "textures/items/dry_rot_meat_wrap"
-    },
-    "hiddendelight.fat_meat": {
-      "textures": "textures/items/fat_meat"
-    },
-    "hiddendelight.honey_candy": {
-      "textures": "textures/items/honey_candy"
-    },
-    "hiddendelight.honey_dried_dry_rot_meat": {
-      "textures": "textures/items/honey_dried_dry_rot_meat"
-    },
-    "hiddendelight.lard": {
-      "textures": "textures/items/lard"
-    },
-    "hiddendelight.marshallow": {
-      "textures": "textures/items/marshallow"
-    },
-    "hiddendelight.medicine_1": {
-      "textures": "textures/items/medicine_1"
-    },
-    "hiddendelight.medicine_10": {
-      "textures": "textures/items/medicine_10"
-    },
-    "hiddendelight.medicine_11": {
-      "textures": "textures/items/medicine_11"
-    },
-    "hiddendelight.medicine_12": {
-      "textures": "textures/items/medicine_12"
-    },
-    "hiddendelight.medicine_13": {
-      "textures": "textures/items/medicine_13"
-    },
-    "hiddendelight.medicine_14": {
-      "textures": "textures/items/medicine_14"
-    },
-    "hiddendelight.medicine_2": {
-      "textures": "textures/items/medicine_2"
-    },
-    "hiddendelight.medicine_3": {
-      "textures": "textures/items/medicine_3"
-    },
-    "hiddendelight.medicine_4": {
-      "textures": "textures/items/medicine_4"
-    },
-    "hiddendelight.medicine_5": {
-      "textures": "textures/items/medicine_5"
-    },
-    "hiddendelight.medicine_6": {
-      "textures": "textures/items/medicine_6"
-    },
-    "hiddendelight.medicine_7": {
-      "textures": "textures/items/medicine_7"
-    },
-    "hiddendelight.medicine_8": {
-      "textures": "textures/items/medicine_8"
-    },
-    "hiddendelight.medicine_9": {
-      "textures": "textures/items/medicine_9"
-    },
-    "hiddendelight.milk_chocolate": {
-      "textures": "textures/items/milk_chocolate"
-    },
-    "hiddendelight.sand_bone_broth": {
-      "textures": "textures/items/sand_bone_broth"
-    },
-    "hiddendelight.sand_fish_roll": {
-      "textures": "textures/items/sand_fish_roll"
-    },
-    "hiddendelight.sand_fish_slice": {
-      "textures": "textures/items/sand_fish_slice"
-    },
-    "hiddendelight.sand_fish_wrap": {
-      "textures": "textures/items/sand_fish_wrap"
-    },
-    "hiddendelight.scorched_meat_wrap": {
-      "textures": "textures/items/scorched_meat_wrap"
-    },
-    "hiddendelight.spicy_chicken_wrap": {
-      "textures": "textures/items/spicy_chicken_wrap"
-    },
-    "hiddendelight.stuffed_copper_potato": {
-      "textures": "textures/items/stuffed_copper_potato"
-    },
-    "hiddendelight.sweet_berry_chocolate": {
-      "textures": "textures/items/sweet_berry_chocolate"
-    },
-    "hiddendelight.sweet_berry_marshallow": {
-      "textures": "textures/items/sweet_berry_marshallow"
-    },
-    "hiddendelight.sweet_berry_popsicle": {
-      "textures": "textures/items/sweet_berry_popsicle"
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "hiddendelight.amethyst_chocolate": {
+            "textures": "textures/items/amethyst_chocolate"
+        },
+        "hiddendelight.amethyst_cookie": {
+            "textures": "textures/items/amethyst_cookie"
+        },
+        "hiddendelight.amethyst_marshallow": {
+            "textures": "textures/items/amethyst_marshallow"
+        },
+        "hiddendelight.amethyst_popsicle": {
+            "textures": "textures/items/amethyst_popsicle"
+        },
+        "hiddendelight.ancient_recipe": {
+            "textures": "textures/items/ancient_recipe"
+        },
+        "hiddendelight.blaze_lard_powder": {
+            "textures": "textures/items/blaze_lard_powder"
+        },
+        "hiddendelight.blaze_lard_rotten_flesh": {
+            "textures": "textures/items/blaze_lard_rotten_flesh"
+        },
+        "hiddendelight.camel_barbecue_stick": {
+            "textures": "textures/items/camel_barbecue_stick"
+        },
+        "hiddendelight.camel_meat": {
+            "textures": "textures/items/camel_meat"
+        },
+        "hiddendelight.camel_soup": {
+            "textures": "textures/items/camel_soup"
+        },
+        "hiddendelight.camel_stew": {
+            "textures": "textures/items/camel_stew"
+        },
+        "hiddendelight.chocolate": {
+            "textures": "textures/items/chocolate"
+        },
+        "hiddendelight.chocolate_bar": {
+            "textures": "textures/items/chocolate_bar"
+        },
+        "hiddendelight.chocolate_paste": {
+            "textures": "textures/items/chocolate_paste"
+        },
+        "hiddendelight.chocolate_popsicle": {
+            "textures": "textures/items/chocolate_popsicle"
+        },
+        "hiddendelight.cooked_camel_meat": {
+            "textures": "textures/items/cooked_camel_meat"
+        },
+        "hiddendelight.baked_dry_rot_meat": {
+            "textures": "textures/items/cooked_dry_rot_meat"
+        },
+        "hiddendelight.cooked_sand_fish_slice": {
+            "textures": "textures/items/cooked_sand_fish_slice"
+        },
+        "hiddendelight.copper_apple": {
+            "textures": "textures/items/copper_apple"
+        },
+        "hiddendelight.copper_bread": {
+            "textures": "textures/items/copper_bread"
+        },
+        "hiddendelight.copper_carrot": {
+            "textures": "textures/items/copper_carrot"
+        },
+        "hiddendelight.copper_hodgepodge": {
+            "textures": "textures/items/copper_hodgepodge"
+        },
+        "hiddendelight.copper_kelp": {
+            "textures": "textures/items/copper_kelp"
+        },
+        "hiddendelight.copper_melon_slice": {
+            "textures": "textures/items/copper_melon_slice"
+        },
+        "hiddendelight.copper_potato": {
+            "textures": "textures/items/copper_potato"
+        },
+        "hiddendelight.copper_rice": {
+            "textures": "textures/items/copper_rice"
+        },
+        "hiddendelight.dried_dry_rot_meat": {
+            "textures": "textures/items/dried_dry_rot_meat"
+        },
+        "hiddendelight.dry_rot_bacon": {
+            "textures": "textures/items/dry_rot_bacon"
+        },
+        "hiddendelight.dry_rot_bacon_and_egg": {
+            "textures": "textures/items/dry_rot_bacon_and_egg"
+        },
+        "hiddendelight.dry_rot_bacon_sandwich": {
+            "textures": "textures/items/dry_rot_bacon_sandwich"
+        },
+        "hiddendelight.dry_rot_meat": {
+            "textures": "textures/items/dry_rot_meat"
+        },
+        "hiddendelight.dry_rot_meat_wrap": {
+            "textures": "textures/items/dry_rot_meat_wrap"
+        },
+        "hiddendelight.fat_meat": {
+            "textures": "textures/items/fat_meat"
+        },
+        "hiddendelight.honey_candy": {
+            "textures": "textures/items/honey_candy"
+        },
+        "hiddendelight.honey_dried_dry_rot_meat": {
+            "textures": "textures/items/honey_dried_dry_rot_meat"
+        },
+        "hiddendelight.lard": {
+            "textures": "textures/items/lard"
+        },
+        "hiddendelight.marshallow": {
+            "textures": "textures/items/marshallow"
+        },
+        "hiddendelight.milk_chocolate": {
+            "textures": "textures/items/milk_chocolate"
+        },
+        "hiddendelight.sand_bone_broth": {
+            "textures": "textures/items/sand_bone_broth"
+        },
+        "hiddendelight.sand_fish_roll": {
+            "textures": "textures/items/sand_fish_roll"
+        },
+        "hiddendelight.sand_fish_slice": {
+            "textures": "textures/items/sand_fish_slice"
+        },
+        "hiddendelight.sand_fish_wrap": {
+            "textures": "textures/items/sand_fish_wrap"
+        },
+        "hiddendelight.scorched_meat_wrap": {
+            "textures": "textures/items/scorched_meat_wrap"
+        },
+        "hiddendelight.spicy_chicken_wrap": {
+            "textures": "textures/items/spicy_chicken_wrap"
+        },
+        "hiddendelight.stuffed_copper_potato": {
+            "textures": "textures/items/stuffed_copper_potato"
+        },
+        "hiddendelight.sweet_berry_chocolate": {
+            "textures": "textures/items/sweet_berry_chocolate"
+        },
+        "hiddendelight.sweet_berry_marshallow": {
+            "textures": "textures/items/sweet_berry_marshallow"
+        },
+        "hiddendelight.sweet_berry_popsicle": {
+            "textures": "textures/items/sweet_berry_popsicle"
+        },
+        "hiddendelight.special_hot_cocoa": {
+            "textures": "textures/items/special_hot_cocoa"
+        },
+        "hiddendelight.syrup": {
+            "textures": "textures/items/syrup"
+        }
     }
-  }
 }

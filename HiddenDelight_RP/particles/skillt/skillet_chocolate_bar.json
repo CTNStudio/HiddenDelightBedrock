@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/chocolate_bar"
 			},
-			"identifier": "farmersdelight:skillet_chocolate_bar"
+			"identifier": "hiddendelight:skillet_chocolate_bar"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

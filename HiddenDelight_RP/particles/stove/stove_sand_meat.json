@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/sand_meat"
 			},
-			"identifier": "farmersdelight:stove_sand_meat"
+			"identifier": "hiddendelight:stove_sand_meat"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

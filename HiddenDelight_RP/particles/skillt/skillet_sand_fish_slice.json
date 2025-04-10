@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/sand_fish_slice"
 			},
-			"identifier": "farmersdelight:skillet_sand_fish_slice"
+			"identifier": "hiddendelight:skillet_sand_fish_slice"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

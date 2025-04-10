@@ -149,7 +149,7 @@
                 "spicy_chicken_wrap@cooking_pot.cooking_pot_recipe": {
                     "texture": "textures/gui/recipe/cooking_recipe",
                     "offset": [
-                        0,
+                        37.5,
                         0
                     ],
                     "size": [

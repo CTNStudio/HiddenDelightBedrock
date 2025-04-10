@@ -8,22 +8,22 @@
   "header": {
     "name": "pack.name",
     "description": "pack.description",
-    "min_engine_version": [1, 21, 60],
+    "min_engine_version": [1, 21, 70],
     "uuid": "0a651081-3e13-49b9-8dcf-101dd9e83d6f",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "pack_scope": "world"
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "c0354c82-61c8-4ed8-995d-96d64d4a20a9",
-      "version": "2.1.1"
+      "version": "2.2.0"
     }
   ],
   "dependencies": [
     {
       "uuid": "9fb1c8d2-704c-4748-aadd-cbdad23288c6",
-      "version": "2.1.1"
+      "version": "2.2.0"
     }
   ]
 }

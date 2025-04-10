@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/camel_meat"
 			},
-			"identifier": "farmersdelight:skillet_camel_meat"
+			"identifier": "hiddendelight:skillet_camel_meat"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {
